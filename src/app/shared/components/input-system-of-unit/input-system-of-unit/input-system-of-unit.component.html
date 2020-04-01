@@ -1,0 +1,22 @@
+<div [formGroup]="formGroup">
+
+    <span class="mat-form-field-label-wrapper">
+        <label class="mat-form-field-label mat-empty mat-form-field-empty">
+            <span>{{label}}</span>
+        </label>
+    </span>
+
+    <input
+        matInput 
+        formControlName="theUnitSystemValue"
+        autocomplete="off"
+        (input)="_handleInput()" />
+
+    <mat-select 
+        formControlName="theUnitSystemSelected" 
+        [(value)]="theUnitSystemListItemSelected"
+        (selectionChange)="_handleInput()">
+        <mat-option *ngFor="let item of theUnitSystemList;" [value]="item.Factor">{{item.Symbol}}</mat-option>
+    </mat-select>
+
+</div>

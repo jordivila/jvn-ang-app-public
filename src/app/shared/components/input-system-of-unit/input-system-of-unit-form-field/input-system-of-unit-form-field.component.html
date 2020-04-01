@@ -1,0 +1,15 @@
+<ng-container *ngIf="theForm">
+    <mat-form-field [formGroup]="theForm">
+        <app-input-system-of-unit 
+            [label]="theLabel"
+            [unitSystem]="theSystemOfUnit"
+            formControlName="{{theFormControlName}}">
+        </app-input-system-of-unit>
+        <mat-error>
+            <app-control-messages 
+                controlLabel="{{theFormControlName}}" 
+                [control]="theForm.controls[theFormControlName]">
+            </app-control-messages>
+        </mat-error>
+    </mat-form-field>
+</ng-container>

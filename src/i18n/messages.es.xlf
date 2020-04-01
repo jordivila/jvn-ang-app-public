@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="es-ES">
+    <body>
+      <trans-unit id="9f86156fd94a04d4a2d1c26fbbc2b9279d8c8ae1" datatype="html">
+        <source>Privacy</source>
+        <target xml:lang="es-ES">Privacidad</target>
+<note from="description" priority="1">Privacy</note><note from="meaning" priority="1">Footer Privacy link</note><context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="9947cb912088db541d93e436ab67ffed727cb7f2" datatype="html">
+        <source>Legal</source>
+        <target xml:lang="es-ES">Legal</target>
+<note from="description" priority="1">Legal</note><note from="meaning" priority="1">Footer Legal link</note><context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="1ad25803328bf926699b345cc38df4942ab929dd" datatype="html">
+        <source>copyright © 2020, Würth Elektronik Group , All rights reserved</source>
+        <target xml:lang="es-ES">copyright © 2020, Würth Elektronik Group, Todos los derechos reservados</target>
+<note from="description" priority="1">Copyright</note><note from="meaning" priority="1">Footer Copyright link</note><context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="898920171eb062b84aae66aa30458f6936b44593" datatype="html">
+        <source>Details</source>
+        <target xml:lang="es-ES">Detalles</target>
+<note from="description" priority="1">Detail</note><context-group purpose="location">
+          <context context-type="sourcefile">src/app/redexpert/home/product-viewer-detail/product-viewer-grid/product-viewer-grid.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        
+      </trans-unit>
+      <trans-unit id="4d563ab6c6a17feb5c2b4fd7392f90ee608b36ef" datatype="html">
+        <source>Oops!</source>
+        <target xml:lang="es-ES">¡Ups!</target>
+<note from="description" priority="1">Ooops</note><note from="meaning" priority="1">Not Found Page</note><context-group purpose="location">
+          <context context-type="sourcefile">src/app/not-found/not-found.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="86a13522e195b175898baf6d6d5bb5864654bceb" datatype="html">
+        <source>The page you were looking for does not exist.</source>
+        <target xml:lang="es-ES">La página que estás buscando no existe.</target>
+<note from="description" priority="1">Page not found explained</note><note from="meaning" priority="1">Not Found Page</note><context-group purpose="location">
+          <context context-type="sourcefile">src/app/not-found/not-found.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        
+        
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

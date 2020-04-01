@@ -1,0 +1,135 @@
+.svg-layer {
+    fill: none;
+    stroke-linecap: square;
+    stroke-linejoin: round;
+    stroke: #000;
+    stroke-width: 2.25px;
+}
+
+.svg-layer .fill {
+    fill: #000;
+}
+
+.svg-layer .fill-tr {
+    fill: #000;
+    opacity: 0;
+}
+
+.svg-layer .hidden {
+    visibility: hidden;
+}
+
+.svg-component {
+    stroke-linecap: square;
+    stroke-linejoin: round;
+    stroke: #000;
+    -webkit-transition: fill, stroke linear 0.1s;
+    -moz-transition: fill, stroke linear 0.1s;
+    -o-transition: fill, stroke linear 0.1s;
+    -ms-transition: fill, stroke linear 0.1s;
+    transition: fill, stroke linear 0.1s;
+}
+
+.svg-component .disabler .disabler {
+    stroke-dasharray: 5, 4;
+}
+
+.svg-arrow-small {
+    fill: #000;
+    stroke-width: 1.25px;
+}
+
+.svg-arrow {
+    fill: #000;
+}
+
+.ending {
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-width: 1;
+}
+
+.svg-layer .red {
+    stroke: #e3000b;
+}
+
+.svg-layer .red .fill,
+.svg-layer .fill.red,
+.svg-layer .red .fill-tr,
+.svg-layer .fill-tr.red,
+.svg-layer .red .svg-arrow {
+    fill: #e3000b;
+    opacity: 1;
+}
+
+.svg-component.red {
+    stroke-width: 2.5px;
+}
+
+.svg-labels {
+    font-size: 11px;
+    font-style: normal;
+    -webkit-font-variant: normal;
+    -moz-font-variant: normal;
+    -ms-font-variant: normal;
+    -o-font-variant: normal;
+    font-variant: normal;
+    font-weight: bold;
+    -webkit-font-stretch: normal;
+    -moz-font-stretch: normal;
+    -o-font-stretch: normal;
+    font-stretch: normal;
+    text-align: center;
+    line-height: 125%;
+    text-anchor: middle;
+    fill: #999;
+    stroke: none;
+    overflow: visible;
+}
+
+.svg-labels .left {
+    text-align: left;
+    text-anchor: start;
+}
+
+.svg-labels .static,
+.svg-labels.static {
+    font-size: 9px;
+    fill: #777;
+}
+
+.svg-labels .red,
+.svg-labels.red {
+    fill: #000;
+    stroke: none;
+}
+
+.svg-coupled-single-inductors {
+    fill: #dddddd;
+    stroke: #dddddd;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 4;
+}
+
+.svg-component-group {
+    stroke: #dddddd;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.dashed {
+    stroke-dasharray: 8;
+    stroke-width: 3px;
+}
+
+.red .svg-coupled-single-inductors {
+    fill: #ffbbbe;
+    stroke: #ffbbbe;
+}
+
+.red .svg-component-group {
+    stroke: #ffbbbe;
+}

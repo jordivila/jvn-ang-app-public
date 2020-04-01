@@ -1,0 +1,93 @@
+<div class="modal-container">
+    <mat-card (click)="errorOpen()">
+        <h4>Error</h4>
+        <button mat-fab type="button">
+            <mat-icon>open_in_browser</mat-icon>
+        </button>        
+    </mat-card>
+    <mat-card (click)="infoOpen()">
+        <h4 >Information</h4>
+        <button mat-fab type="button">
+            <mat-icon>open_in_browser</mat-icon>
+        </button>        
+    </mat-card>
+    <mat-card (click)="successOpen()">
+        <h4 >Success</h4>
+        <button mat-fab type="button">
+            <mat-icon>open_in_browser</mat-icon>
+        </button>        
+    </mat-card>
+    <mat-card  (click)="warningOpen()">
+        <h4 >Warning</h4>
+        <button mat-fab type="button">
+            <mat-icon>open_in_browser</mat-icon>
+        </button>        
+    </mat-card>
+    <mat-card (click)="timeoutOpen()">
+        <h4 >Timeout Warning</h4>
+        <button mat-fab type="button">
+            <mat-icon>open_in_browser</mat-icon>
+        </button>        
+    </mat-card>
+    <mat-card (click)="confirmOpen()">
+        <h4 >Confirmation</h4>
+        <button mat-fab type="button">
+            <mat-icon>open_in_browser</mat-icon>
+        </button>        
+    </mat-card>
+    <mat-card (click)="templatedListOpen()">
+        <h4 >Templated list</h4>
+        <button mat-fab type="button">
+            <mat-icon>open_in_browser</mat-icon>
+        </button>        
+    </mat-card>
+    <mat-card (click)="templatedListErrorOpen()">
+        <h4 >Templated list error</h4>
+        <button mat-fab type="button">
+            <mat-icon>open_in_browser</mat-icon>
+        </button>        
+    </mat-card>
+    <mat-card (click)="menuSlideOpen()">
+        <h4 >Slide Menu</h4>
+        <button mat-fab type="button">
+            <mat-icon>open_in_browser</mat-icon>
+        </button>        
+    </mat-card>
+</div>
+
+<app-modal-helper></app-modal-helper>
+<app-modal-warning-templated-list [title]="'Warning'" [body]="'The following errors occurred:'" [items]="templatedListItems">
+    <ng-container *ngFor="let item of templatedListItems; let i=index; let odd=odd; trackBy: index">
+        <li [class.odd]="odd"><span>{{i}}.- </span>{{item.title}} -> {{item.desc}}</li>
+    </ng-container>
+</app-modal-warning-templated-list>
+<app-modal-error-templated-list [title]="'Error'" [body]="'The following errors occurred:'" [items]="templatedListItems">
+    <ng-container *ngFor="let item of templatedListItems; let i=index; let odd=odd; trackBy: index">
+        <li [class.odd]="odd"><span>{{i}}.- </span>{{item.title}} -> {{item.desc}}</li>
+    </ng-container>
+</app-modal-error-templated-list>
+<app-modal-slide-menu 
+    [title]="'Menu Slide Title'" 
+    [slideMenuTemplate]="slideMenuTemplate" 
+    [slideMenuFooterTemplate]="slideMenuFooterTemplate">
+    <ng-template #slideMenuTemplate>
+        <p >
+            This is a content sample 
+        </p>
+        <br />
+        <br />
+        <p >
+            And this is an action button that triggers parent's controller method
+        </p>
+        <button (click)="menuSlideClose()">
+            <ng-container >
+                Click here to trigger parent controllers method
+            </ng-container>
+        </button>
+    </ng-template>
+    <ng-template #slideMenuFooterTemplate>
+        <button class="btn btn-primary" (click)="menuSlideClose()">
+            <ng-container  >Close</ng-container>
+        </button>
+    </ng-template>
+</app-modal-slide-menu>    

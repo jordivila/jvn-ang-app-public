@@ -1,0 +1,6 @@
+@import './theme-shades.scss';
+
+$error-primary: mat-palette($mat-red, $lighter-shade);
+$error-accent: mat-palette($mat-red, $default-shade);
+$error-warn: mat-palette($mat-red, $darker-shade);
+$error-theme: mat-light-theme($error-primary, $error-accent, $error-warn);

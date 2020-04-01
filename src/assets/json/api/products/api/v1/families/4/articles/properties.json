@@ -1,0 +1,1122 @@
+{
+    "articles": {
+        "74479977104": {
+            "properties": {
+                "Inductance": 4.0000000e-008,
+                "Order_Code": "74479977104",
+                "Rated_Current": 6.0000000e+000,
+                "Resistance_DC_TYP": 1.3000000e-002,
+                "Saturation_Current": 8.0000000e+000,
+                "Self_Resonan_Frequency": 1.2000000e+008,
+                "Series": "WE-PMMI",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564844,
+            "articleNumber": "74479977104",
+            "matchcode": "WE-PMMI"
+        },
+        "74479974111": {
+            "properties": {
+                "Inductance": 1.1000000e-007,
+                "Order_Code": "74479974111",
+                "Rated_Current": 3.0000000e+000,
+                "Resistance_DC_TYP": 2.4000000e-002,
+                "Saturation_Current": 6.0000000e+000,
+                "Self_Resonan_Frequency": 6.0000000e+007,
+                "Series": "WE-PMMI",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564843,
+            "articleNumber": "74479974111",
+            "matchcode": "WE-PMMI"
+        },
+        "74479978114": {
+            "properties": {
+                "Inductance": 1.4000000e-007,
+                "Order_Code": "74479978114",
+                "Rated_Current": 3.7000000e+000,
+                "Resistance_DC_TYP": 2.3000000e-002,
+                "Saturation_Current": 6.0000000e+000,
+                "Self_Resonan_Frequency": 4.5000000e+007,
+                "Series": "WE-PMMI",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564842,
+            "articleNumber": "74479978114",
+            "matchcode": "WE-PMMI"
+        },
+        "74479978105": {
+            "properties": {
+                "Inductance": 5.0000001e-008,
+                "Order_Code": "74479978105",
+                "Rated_Current": 7.0000000e+000,
+                "Resistance_DC_TYP": 8.9999996e-003,
+                "Saturation_Current": 1.1000000e+001,
+                "Self_Resonan_Frequency": 8.0000000e+007,
+                "Series": "WE-PMMI",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564841,
+            "articleNumber": "74479978105",
+            "matchcode": "WE-PMMI"
+        },
+        "74479977111": {
+            "properties": {
+                "Inductance": 1.1000000e-007,
+                "Order_Code": "74479977111",
+                "Rated_Current": 3.5000000e+000,
+                "Resistance_DC_TYP": 2.3000000e-002,
+                "Saturation_Current": 6.0000000e+000,
+                "Self_Resonan_Frequency": 7.0000000e+007,
+                "Series": "WE-PMMI",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564840,
+            "articleNumber": "74479977111",
+            "matchcode": "WE-PMMI"
+        },
+        "7443082015B": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "7443082015B",
+                "Rated_Current": 7.0000000e+001,
+                "Resistance_DC_TYP": 1.1400000e-004,
+                "Saturation_Current": 7.2000000e+001,
+                "Self_Resonan_Frequency": 5.0000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564827,
+            "articleNumber": "7443082015B",
+            "matchcode": "WE-HCM"
+        },
+        "7443082012B": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "7443082012B",
+                "Rated_Current": 7.0000000e+001,
+                "Resistance_DC_TYP": 1.1400000e-004,
+                "Saturation_Current": 9.0000000e+001,
+                "Self_Resonan_Frequency": 6.0000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564826,
+            "articleNumber": "7443082012B",
+            "matchcode": "WE-HCM"
+        },
+        "7443082010B": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "7443082010B",
+                "Rated_Current": 7.0000000e+001,
+                "Resistance_DC_TYP": 1.1400000e-004,
+                "Saturation_Current": 1.0000000e+002,
+                "Self_Resonan_Frequency": 7.1000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564825,
+            "articleNumber": "7443082010B",
+            "matchcode": "WE-HCM"
+        },
+        "FCUL0630-H-R12M=P3": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "FCUL0630-H-R12M=P3",
+                "Rated_Current": 3.8000000e+001,
+                "Resistance_DC_TYP": 7.6999998e-004,
+                "Saturation_Current": 4.0000000e+001,
+                "Series": "FCUL0630",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564716,
+            "articleNumber": "FCUL0630-H-R12M=P3",
+            "matchcode": "FCUL0630"
+        },
+        "SLR1050C-151KE": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "SLR1050C-151KE",
+                "Rated_Current": 6.5000000e+001,
+                "Resistance_DC_TYP": 5.5000000e-004,
+                "Saturation_Current": 5.1000000e+001,
+                "Self_Resonan_Frequency": 9.0000000e+007,
+                "Series": "SLR1050C",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564714,
+            "articleNumber": "SLR1050C-151KE",
+            "matchcode": "SLR1050C"
+        },
+        "SLR1050C-121KE": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "SLR1050C-121KE",
+                "Rated_Current": 6.5000000e+001,
+                "Resistance_DC_TYP": 5.5000000e-004,
+                "Saturation_Current": 6.5000000e+001,
+                "Self_Resonan_Frequency": 1.8000000e+008,
+                "Series": "SLR1050C",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564713,
+            "articleNumber": "SLR1050C-121KE",
+            "matchcode": "SLR1050C"
+        },
+        "SLR1050C-101KE": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "SLR1050C-101KE",
+                "Rated_Current": 6.5000000e+001,
+                "Resistance_DC_TYP": 5.5000000e-004,
+                "Saturation_Current": 7.8000000e+001,
+                "Self_Resonan_Frequency": 2.0000000e+008,
+                "Series": "SLR1050C",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564712,
+            "articleNumber": "SLR1050C-101KE",
+            "matchcode": "SLR1050C"
+        },
+        "SLR1050C-850KE": {
+            "properties": {
+                "Inductance": 8.5000003e-008,
+                "Order_Code": "SLR1050C-850KE",
+                "Rated_Current": 6.5000000e+001,
+                "Resistance_DC_TYP": 5.5000000e-004,
+                "Saturation_Current": 8.6000000e+001,
+                "Self_Resonan_Frequency": 2.1000000e+008,
+                "Series": "SLR1050C",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564711,
+            "articleNumber": "SLR1050C-850KE",
+            "matchcode": "SLR1050C"
+        },
+        "SLR1050B-151KE": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "SLR1050B-151KE",
+                "Rated_Current": 6.7199997e+001,
+                "Resistance_DC_TYP": 4.7000000e-004,
+                "Saturation_Current": 5.1000000e+001,
+                "Self_Resonan_Frequency": 9.0000000e+007,
+                "Series": "SLR1050B",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564709,
+            "articleNumber": "SLR1050B-151KE",
+            "matchcode": "SLR1050B"
+        },
+        "SLR1050B-121KE": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "SLR1050B-121KE",
+                "Rated_Current": 6.7199997e+001,
+                "Resistance_DC_TYP": 4.7000000e-004,
+                "Saturation_Current": 6.5000000e+001,
+                "Self_Resonan_Frequency": 1.8000000e+008,
+                "Series": "SLR1050B",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564708,
+            "articleNumber": "SLR1050B-121KE",
+            "matchcode": "SLR1050B"
+        },
+        "SLR1050B-101KE": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "SLR1050B-101KE",
+                "Rated_Current": 6.7199997e+001,
+                "Resistance_DC_TYP": 4.7000000e-004,
+                "Saturation_Current": 7.8000000e+001,
+                "Self_Resonan_Frequency": 2.0000000e+008,
+                "Series": "SLR1050B",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564707,
+            "articleNumber": "SLR1050B-101KE",
+            "matchcode": "SLR1050B"
+        },
+        "SLR1050B-850KE": {
+            "properties": {
+                "Inductance": 8.5000003e-008,
+                "Order_Code": "SLR1050B-850KE",
+                "Rated_Current": 6.7199997e+001,
+                "Resistance_DC_TYP": 4.7000000e-004,
+                "Saturation_Current": 8.6000000e+001,
+                "Self_Resonan_Frequency": 2.1000000e+008,
+                "Series": "SLR1050B",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564706,
+            "articleNumber": "SLR1050B-850KE",
+            "matchcode": "SLR1050B"
+        },
+        "SLR1050A-151KE": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "SLR1050A-151KE",
+                "Rated_Current": 7.7099998e+001,
+                "Resistance_DC_TYP": 3.9000000e-004,
+                "Saturation_Current": 5.1000000e+001,
+                "Self_Resonan_Frequency": 9.0000000e+007,
+                "Series": "SLR1050A",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564704,
+            "articleNumber": "SLR1050A-151KE",
+            "matchcode": "SLR1050A"
+        },
+        "SLR1050A-121KE": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "SLR1050A-121KE",
+                "Rated_Current": 7.7099998e+001,
+                "Resistance_DC_TYP": 3.9000000e-004,
+                "Saturation_Current": 6.5000000e+001,
+                "Self_Resonan_Frequency": 1.8000000e+008,
+                "Series": "SLR1050A",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564703,
+            "articleNumber": "SLR1050A-121KE",
+            "matchcode": "SLR1050A"
+        },
+        "SLR1050A-101KE": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "SLR1050A-101KE",
+                "Rated_Current": 7.7099998e+001,
+                "Resistance_DC_TYP": 3.9000000e-004,
+                "Saturation_Current": 7.8000000e+001,
+                "Self_Resonan_Frequency": 2.0000000e+008,
+                "Series": "SLR1050A",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564702,
+            "articleNumber": "SLR1050A-101KE",
+            "matchcode": "SLR1050A"
+        },
+        "SLR1050A-850KE": {
+            "properties": {
+                "Inductance": 8.5000003e-008,
+                "Order_Code": "SLR1050A-850KE",
+                "Rated_Current": 7.7099998e+001,
+                "Resistance_DC_TYP": 3.9000000e-004,
+                "Saturation_Current": 8.6000000e+001,
+                "Self_Resonan_Frequency": 2.1000000e+008,
+                "Series": "SLR1050A",
+                "Shielding_Type": "",
+                "Type": "Single"
+            },
+            "id": -564701,
+            "articleNumber": "SLR1050A-850KE",
+            "matchcode": "SLR1050A"
+        },
+        "CMLE061E-R12MS": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "CMLE061E-R12MS",
+                "Rated_Current": 1.8000000e+001,
+                "Resistance_DC_TYP": 3.4000000e-003,
+                "Saturation_Current": 2.9000000e+001,
+                "Series": "CMLE061E",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564678,
+            "articleNumber": "CMLE061E-R12MS",
+            "matchcode": "CMLE061E"
+        },
+        "Ah3732M-R15KHF": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "Ah3732M-R15KHF",
+                "Rated_Current": 5.1000000e+001,
+                "Resistance_DC_TYP": 2.9000000e-004,
+                "Saturation_Current": 5.8000000e+001,
+                "Series": "AH3732H",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564649,
+            "articleNumber": "Ah3732M-R15KHF",
+            "matchcode": "AH3732H"
+        },
+        "XPL7030-131ML": {
+            "properties": {
+                "Inductance": 1.3000000e-007,
+                "Order_Code": "XPL7030-131ML",
+                "Rated_Current": 3.1299999e+001,
+                "Resistance_DC_TYP": 1.9400000e-003,
+                "Saturation_Current": 5.7000000e+001,
+                "Series": "XPL",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564636,
+            "articleNumber": "XPL7030-131ML",
+            "matchcode": "XPL"
+        },
+        "XFL4012-121ME": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "XFL4012-121ME",
+                "Rated_Current": 1.3200000e+001,
+                "Resistance_DC_TYP": 5.2000000e-003,
+                "Saturation_Current": 6.9000001e+000,
+                "Series": "XFL",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564596,
+            "articleNumber": "XFL4012-121ME",
+            "matchcode": "XFL"
+        },
+        "XFL2005-151ME": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "XFL2005-151ME",
+                "Rated_Current": 1.2500000e+000,
+                "Resistance_DC_TYP": 8.5000001e-002,
+                "Saturation_Current": 1.5500000e+000,
+                "Series": "XFL",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564555,
+            "articleNumber": "XFL2005-151ME",
+            "matchcode": "XFL"
+        },
+        "XEL6030-151ME": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "XEL6030-151ME",
+                "Rated_Current": 3.3299999e+001,
+                "Resistance_DC_TYP": 1.3500000e-003,
+                "Saturation_Current": 4.1000000e+001,
+                "Series": "XEL",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564434,
+            "articleNumber": "XEL6030-151ME",
+            "matchcode": "XEL"
+        },
+        "XEL5020-101MEB": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "XEL5020-101MEB",
+                "Rated_Current": 2.5000000e+001,
+                "Resistance_DC_TYP": 1.9000000e-003,
+                "Saturation_Current": 3.9000000e+001,
+                "Series": "XEL",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564432,
+            "articleNumber": "XEL5020-101MEB",
+            "matchcode": "XEL"
+        },
+        "XEL4030-101ME": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "XEL4030-101ME",
+                "Rated_Current": 2.5799999e+001,
+                "Resistance_DC_TYP": 1.5000000e-003,
+                "Saturation_Current": 3.0000000e+001,
+                "Series": "XEL",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564419,
+            "articleNumber": "XEL4030-101ME",
+            "matchcode": "XEL"
+        },
+        "XEL4020-101ME": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "XEL4020-101ME",
+                "Rated_Current": 1.9900000e+001,
+                "Resistance_DC_TYP": 2.0399999e-003,
+                "Saturation_Current": 2.8500000e+001,
+                "Series": "XEL",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564410,
+            "articleNumber": "XEL4020-101ME",
+            "matchcode": "XEL"
+        },
+        "XEL4012-920NE": {
+            "properties": {
+                "Inductance": 9.2000001e-008,
+                "Order_Code": "XEL4012-920NE",
+                "Rated_Current": 1.6500000e+001,
+                "Resistance_DC_TYP": 5.2000000e-003,
+                "Saturation_Current": 2.4000000e+001,
+                "Series": "XEL",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564404,
+            "articleNumber": "XEL4012-920NE",
+            "matchcode": "XEL"
+        },
+        "XEL3515-151ME": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "XEL3515-151ME",
+                "Rated_Current": 1.7500000e+001,
+                "Resistance_DC_TYP": 4.8000002e-003,
+                "Saturation_Current": 1.2500000e+001,
+                "Series": "XEL",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564400,
+            "articleNumber": "XEL3515-151ME",
+            "matchcode": "XEL"
+        },
+        "XEL3515-720ME": {
+            "properties": {
+                "Inductance": 7.1999999e-008,
+                "Order_Code": "XEL3515-720ME",
+                "Rated_Current": 2.3600000e+001,
+                "Resistance_DC_TYP": 2.8500000e-003,
+                "Saturation_Current": 1.6000000e+001,
+                "Series": "XEL",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -564399,
+            "articleNumber": "XEL3515-720ME",
+            "matchcode": "XEL"
+        },
+        "7448510091": {
+            "properties": {
+                "Inductance": 9.0999997e-008,
+                "Order_Code": "7448510091",
+                "Rated_Current": 1.4500000e+001,
+                "Resistance_DC_TYP": 2.7999999e-003,
+                "Saturation_Current": 1.2000000e+002,
+                "Self_Resonan_Frequency": 4.5000000e+008,
+                "Series": "WE-DCT",
+                "Shielding_Type": "Unshielded",
+                "Type": "Coupled"
+            },
+            "id": -564363,
+            "articleNumber": "7448510091",
+            "matchcode": "WE-DCT"
+        },
+        "74477450012": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "74477450012",
+                "Rated_Current": 1.0000000e+001,
+                "Resistance_DC_TYP": 2.4999999e-003,
+                "Saturation_Current": 1.4000000e+001,
+                "Self_Resonan_Frequency": 2.5000000e+008,
+                "Series": "WE-PD2",
+                "Shielding_Type": "Unshielded",
+                "Type": "Single"
+            },
+            "id": -563648,
+            "articleNumber": "74477450012",
+            "matchcode": "WE-PD2"
+        },
+        "744766001": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "744766001",
+                "Rated_Current": 4.4999999e-001,
+                "Resistance_DC_TYP": 4.4000000e-001,
+                "Self_Resonan_Frequency": 9.1299098e+008,
+                "Series": "WE-GF",
+                "Shielding_Type": "Unshielded",
+                "Type": "Single"
+            },
+            "id": -563206,
+            "articleNumber": "744766001",
+            "matchcode": "WE-GF"
+        },
+        "744373240010": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "744373240010",
+                "Rated_Current": 1.2000000e+001,
+                "Resistance_DC_TYP": 3.1999999e-003,
+                "Saturation_Current": 3.0000000e+001,
+                "Self_Resonan_Frequency": 3.2315002e+008,
+                "Series": "WE-LHMI",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562790,
+            "articleNumber": "744373240010",
+            "matchcode": "WE-LHMI"
+        },
+        "744373210010": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "744373210010",
+                "Rated_Current": 8.1000004e+000,
+                "Resistance_DC_TYP": 4.3000001e-003,
+                "Saturation_Current": 2.4000000e+001,
+                "Self_Resonan_Frequency": 3.6738666e+008,
+                "Series": "WE-LHMI",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562778,
+            "articleNumber": "744373210010",
+            "matchcode": "WE-LHMI"
+        },
+        "744309012": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "744309012",
+                "Rated_Current": 4.7500000e+001,
+                "Resistance_DC_TYP": 1.6500000e-004,
+                "Saturation_Current": 1.2500000e+002,
+                "Self_Resonan_Frequency": 6.5000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562733,
+            "articleNumber": "744309012",
+            "matchcode": "WE-HCM"
+        },
+        "744304010": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "744304010",
+                "Rated_Current": 2.4000000e+001,
+                "Resistance_DC_TYP": 1.7000000e-004,
+                "Saturation_Current": 5.2000000e+001,
+                "Self_Resonan_Frequency": 1.0500000e+008,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562723,
+            "articleNumber": "744304010",
+            "matchcode": "WE-HCM"
+        },
+        "S14100153": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "S14100153",
+                "Rated_Current": 6.5000000e+001,
+                "Resistance_DC_TYP": 1.8000000e-004,
+                "Saturation_Current": 7.9000000e+001,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562712,
+            "articleNumber": "S14100153",
+            "matchcode": "WE-HCM"
+        },
+        "S14100150": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "S14100150",
+                "Rated_Current": 6.0000000e+001,
+                "Resistance_DC_TYP": 1.8000000e-004,
+                "Saturation_Current": 7.9000000e+001,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562711,
+            "articleNumber": "S14100150",
+            "matchcode": "WE-HCM"
+        },
+        "S14100149": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "S14100149",
+                "Rated_Current": 6.0000000e+001,
+                "Resistance_DC_TYP": 1.8000000e-004,
+                "Saturation_Current": 9.4000000e+001,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562710,
+            "articleNumber": "S14100149",
+            "matchcode": "WE-HCM"
+        },
+        "7443082015A": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "7443082015A",
+                "Rated_Current": 6.5000000e+001,
+                "Resistance_DC_TYP": 1.5000001e-004,
+                "Saturation_Current": 7.4000000e+001,
+                "Self_Resonan_Frequency": 5.6000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562707,
+            "articleNumber": "7443082015A",
+            "matchcode": "WE-HCM"
+        },
+        "7443082015": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "7443082015",
+                "Rated_Current": 6.0000000e+001,
+                "Resistance_DC_TYP": 1.8000000e-004,
+                "Saturation_Current": 7.9000000e+001,
+                "Self_Resonan_Frequency": 6.3000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562703,
+            "articleNumber": "7443082015",
+            "matchcode": "WE-HCM"
+        },
+        "7443082012": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "7443082012",
+                "Rated_Current": 6.0000000e+001,
+                "Resistance_DC_TYP": 1.8000000e-004,
+                "Saturation_Current": 9.4000000e+001,
+                "Self_Resonan_Frequency": 7.0000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562702,
+            "articleNumber": "7443082012",
+            "matchcode": "WE-HCM"
+        },
+        "7443082010": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "7443082010",
+                "Rated_Current": 6.0000000e+001,
+                "Resistance_DC_TYP": 1.8000000e-004,
+                "Saturation_Current": 1.0000000e+002,
+                "Self_Resonan_Frequency": 9.4000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562701,
+            "articleNumber": "7443082010",
+            "matchcode": "WE-HCM"
+        },
+        "S12100063": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "S12100063",
+                "Rated_Current": 5.6000000e+001,
+                "Resistance_DC_TYP": 2.9000000e-004,
+                "Saturation_Current": 8.0000000e+001,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562699,
+            "articleNumber": "S12100063",
+            "matchcode": "WE-HCM"
+        },
+        "7443081015": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "7443081015",
+                "Rated_Current": 3.8000000e+001,
+                "Resistance_DC_TYP": 2.9000000e-004,
+                "Saturation_Current": 6.7000000e+001,
+                "Self_Resonan_Frequency": 6.8000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562694,
+            "articleNumber": "7443081015",
+            "matchcode": "WE-HCM"
+        },
+        "7443081012": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "7443081012",
+                "Rated_Current": 3.8000000e+001,
+                "Resistance_DC_TYP": 2.9000000e-004,
+                "Saturation_Current": 8.5000000e+001,
+                "Self_Resonan_Frequency": 7.4000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562693,
+            "articleNumber": "7443081012",
+            "matchcode": "WE-HCM"
+        },
+        "7443081010": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "7443081010",
+                "Rated_Current": 3.8000000e+001,
+                "Resistance_DC_TYP": 2.9000000e-004,
+                "Saturation_Current": 1.0000000e+002,
+                "Self_Resonan_Frequency": 8.0000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562692,
+            "articleNumber": "7443081010",
+            "matchcode": "WE-HCM"
+        },
+        "S15100132": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "S15100132",
+                "Rated_Current": 3.1000000e+001,
+                "Resistance_DC_TYP": 3.4999999e-004,
+                "Saturation_Current": 5.4000000e+001,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562691,
+            "articleNumber": "S15100132",
+            "matchcode": "WE-HCM"
+        },
+        "S11100037": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "S11100037",
+                "Rated_Current": 3.1000000e+001,
+                "Resistance_DC_TYP": 3.4999999e-004,
+                "Saturation_Current": 5.4000000e+001,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562688,
+            "articleNumber": "S11100037",
+            "matchcode": "WE-HCM"
+        },
+        "744308015": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "744308015",
+                "Rated_Current": 2.7000000e+001,
+                "Resistance_DC_TYP": 3.6999999e-004,
+                "Saturation_Current": 5.8000000e+001,
+                "Self_Resonan_Frequency": 6.0000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562680,
+            "articleNumber": "744308015",
+            "matchcode": "WE-HCM"
+        },
+        "744303012": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "744303012",
+                "Rated_Current": 3.1000000e+001,
+                "Resistance_DC_TYP": 3.2500000e-004,
+                "Saturation_Current": 5.5000000e+001,
+                "Self_Resonan_Frequency": 1.5000000e+008,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562674,
+            "articleNumber": "744303012",
+            "matchcode": "WE-HCM"
+        },
+        "744307012": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "744307012",
+                "Rated_Current": 2.6000000e+001,
+                "Resistance_DC_TYP": 2.9000000e-004,
+                "Saturation_Current": 4.8000000e+001,
+                "Self_Resonan_Frequency": 6.6000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562671,
+            "articleNumber": "744307012",
+            "matchcode": "WE-HCM"
+        },
+        "744302015": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "744302015",
+                "Rated_Current": 3.0000000e+001,
+                "Resistance_DC_TYP": 2.3500000e-004,
+                "Saturation_Current": 3.2000000e+001,
+                "Self_Resonan_Frequency": 5.5000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562670,
+            "articleNumber": "744302015",
+            "matchcode": "WE-HCM"
+        },
+        "744302010": {
+            "properties": {
+                "Inductance": 1.0500000e-007,
+                "Order_Code": "744302010",
+                "Rated_Current": 3.0000000e+001,
+                "Resistance_DC_TYP": 2.3500000e-004,
+                "Saturation_Current": 4.5000000e+001,
+                "Self_Resonan_Frequency": 7.2000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562669,
+            "articleNumber": "744302010",
+            "matchcode": "WE-HCM"
+        },
+        "744302007": {
+            "properties": {
+                "Inductance": 7.1999999e-008,
+                "Order_Code": "744302007",
+                "Rated_Current": 3.0000000e+001,
+                "Resistance_DC_TYP": 2.3500000e-004,
+                "Saturation_Current": 6.0000000e+001,
+                "Self_Resonan_Frequency": 1.5000000e+008,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562668,
+            "articleNumber": "744302007",
+            "matchcode": "WE-HCM"
+        },
+        "74431435015": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "74431435015",
+                "Rated_Current": 3.1000000e+001,
+                "Resistance_DC_TYP": 2.8000001e-004,
+                "Saturation_Current": 6.1000000e+001,
+                "Self_Resonan_Frequency": 8.4000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562594,
+            "articleNumber": "74431435015",
+            "matchcode": "WE-HCM"
+        },
+        "74431435012": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "74431435012",
+                "Rated_Current": 3.1000000e+001,
+                "Resistance_DC_TYP": 2.8000001e-004,
+                "Saturation_Current": 6.9000000e+001,
+                "Self_Resonan_Frequency": 8.5000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562593,
+            "articleNumber": "74431435012",
+            "matchcode": "WE-HCM"
+        },
+        "74431435010": {
+            "properties": {
+                "Inductance": 1.0000000e-007,
+                "Order_Code": "74431435010",
+                "Rated_Current": 3.1000000e+001,
+                "Resistance_DC_TYP": 2.8000001e-004,
+                "Saturation_Current": 8.0000000e+001,
+                "Self_Resonan_Frequency": 8.7000000e+007,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562592,
+            "articleNumber": "74431435010",
+            "matchcode": "WE-HCM"
+        },
+        "74431323012": {
+            "properties": {
+                "Inductance": 1.2000000e-007,
+                "Order_Code": "74431323012",
+                "Rated_Current": 2.6000000e+001,
+                "Resistance_DC_TYP": 6.9999998e-004,
+                "Saturation_Current": 4.5000000e+001,
+                "Self_Resonan_Frequency": 1.2000000e+008,
+                "Series": "WE-HCM",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562585,
+            "articleNumber": "74431323012",
+            "matchcode": "WE-HCM"
+        },
+        "744355215": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "744355215",
+                "Rated_Current": 2.5000000e+001,
+                "Resistance_DC_TYP": 5.7999999e-004,
+                "Saturation_Current": 6.0000000e+001,
+                "Self_Resonan_Frequency": 2.7500000e+008,
+                "Series": "WE-HCI",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562456,
+            "articleNumber": "744355215",
+            "matchcode": "WE-HCI"
+        },
+        "744310013": {
+            "properties": {
+                "Inductance": 1.3000000e-007,
+                "Order_Code": "744310013",
+                "Rated_Current": 2.2000000e+001,
+                "Resistance_DC_TYP": 9.1000000e-004,
+                "Saturation_Current": 4.8000000e+001,
+                "Self_Resonan_Frequency": 4.0000000e+008,
+                "Series": "WE-HCI",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -562421,
+            "articleNumber": "744310013",
+            "matchcode": "WE-HCI"
+        },
+        "74402900011": {
+            "properties": {
+                "Inductance": 1.1000000e-007,
+                "Order_Code": "74402900011",
+                "Rated_Current": 4.5000000e+000,
+                "Resistance_DC_TYP": 1.1000000e-002,
+                "Saturation_Current": 5.5000000e+000,
+                "Self_Resonan_Frequency": 1.0000000e+009,
+                "Series": "WE-TPC",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -561731,
+            "articleNumber": "74402900011",
+            "matchcode": "WE-TPC"
+        },
+        "744029000068": {
+            "properties": {
+                "Inductance": 6.7999999e-008,
+                "Order_Code": "744029000068",
+                "Rated_Current": 4.5000000e+000,
+                "Resistance_DC_TYP": 1.0500000e-002,
+                "Saturation_Current": 5.5000000e+000,
+                "Self_Resonan_Frequency": 1.0000000e+009,
+                "Series": "WE-TPC",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -561730,
+            "articleNumber": "744029000068",
+            "matchcode": "WE-TPC"
+        },
+        "74402800015": {
+            "properties": {
+                "Inductance": 1.5000001e-007,
+                "Order_Code": "74402800015",
+                "Rated_Current": 3.0000000e+000,
+                "Resistance_DC_TYP": 1.7999999e-002,
+                "Saturation_Current": 3.5999999e+000,
+                "Self_Resonan_Frequency": 8.0000000e+008,
+                "Series": "WE-TPC",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -561718,
+            "articleNumber": "74402800015",
+            "matchcode": "WE-TPC"
+        },
+        "74402800011": {
+            "properties": {
+                "Inductance": 1.1000000e-007,
+                "Order_Code": "74402800011",
+                "Rated_Current": 4.0999999e+000,
+                "Resistance_DC_TYP": 1.3000000e-002,
+                "Saturation_Current": 4.8000002e+000,
+                "Self_Resonan_Frequency": 2.0000000e+009,
+                "Series": "WE-TPC",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -561717,
+            "articleNumber": "74402800011",
+            "matchcode": "WE-TPC"
+        },
+        "744028000056": {
+            "properties": {
+                "Inductance": 5.6000001e-008,
+                "Order_Code": "744028000056",
+                "Rated_Current": 4.5000000e+000,
+                "Resistance_DC_TYP": 1.1500000e-002,
+                "Saturation_Current": 6.0000000e+000,
+                "Self_Resonan_Frequency": 2.0000000e+009,
+                "Series": "WE-TPC",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -561716,
+            "articleNumber": "744028000056",
+            "matchcode": "WE-TPC"
+        },
+        "74479899111": {
+            "properties": {
+                "Inductance": 1.1000000e-007,
+                "Order_Code": "74479899111",
+                "Rated_Current": 4.0000000e+000,
+                "Resistance_DC_TYP": 7.0000002e-003,
+                "Saturation_Current": 4.0000000e+000,
+                "Self_Resonan_Frequency": 3.0000000e+008,
+                "Series": "WE-PMI",
+                "Shielding_Type": "Shielded",
+                "Type": "Single"
+            },
+            "id": -561674,
+            "articleNumber": "74479899111",
+            "matchcode": "WE-PMI"
+        }
+    },
+    "id": 4,
+    "name": null
+}

@@ -1,0 +1,37 @@
+<div *ngIf="isOpen" class="mat-drawer-backdrop mat-drawer-shown"></div>
+<mat-sidenav [opened]="isOpen" [fixedInViewport]="true" [position]="'end'">
+  <div class="app-right-sidenav-templated" *ngIf="theForm">
+    <div class="mat-elevation-z8">
+      <mat-toolbar color="primary">
+        <mat-toolbar-row>
+          <div class="truncate-text">{{msgTitle}}</div>
+        </mat-toolbar-row>
+      </mat-toolbar>
+    </div>
+    <div class="app-right-sidenav-templated-content">
+      <form [formGroup]="theForm" (ngSubmit)="saveForm()" #theFormSpy="ngForm">
+        <ng-container>
+          <ng-template #formDefaultTemplate>
+            No form template specified
+          </ng-template>
+          <ng-container *ngTemplateOutlet="formTemplate ? formTemplate: formDefaultTemplate; context:{theForm: theForm}">
+          </ng-container>
+        </ng-container>
+      </form>
+    </div>
+    <div class="app-right-sidenav-templated-footer">
+      <div>
+        <button mat-raised-button color="secondary" type="button" (click)="closeForm()">
+          <span>Cancel</span>
+        </button>
+      </div>
+      <div>
+        <button mat-raised-button color="primary" 
+          [disabled]="(!theForm.valid) || (!theForm.dirty)" 
+          (click)="theFormSpy.ngSubmit.emit()">
+          <span>Save</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</mat-sidenav>

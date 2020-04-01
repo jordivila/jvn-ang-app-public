@@ -1,0 +1,11 @@
+<div class="mat-title" *ngIf="isVisible">
+  <div *ngIf="isErrorThrown && !isLoading">
+    {{errorMessage}}
+    </div>
+  <div *ngIf="isInitMessageShown && !isErrorThrown && !isLoading">
+    {{initMessage}}
+  </div>
+  <div *ngIf="isEmptyMessageShown && !isErrorThrown && !isLoading">
+    {{noDataFoundMessage}}
+  </div>
+</div>

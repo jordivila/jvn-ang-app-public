@@ -1,0 +1,31 @@
+<div *ngIf="isOpen" class="mat-drawer-backdrop mat-drawer-shown"></div>
+<mat-sidenav [opened]="isOpen" [fixedInViewport]="true" [position]="'end'">
+  <div class="app-right-sidenav-templated" >
+    <div class="mat-elevation-z8">
+      <mat-toolbar color="primary">
+        <mat-toolbar-row>
+          <div class="truncate-text">{{title}}</div>
+        </mat-toolbar-row>
+      </mat-toolbar>
+    </div>
+
+    <div class="app-right-sidenav-templated-content">
+      <ng-container>
+        <ng-template #formDefaultTemplate>
+          No form template specified
+        </ng-template>
+        <ng-container *ngTemplateOutlet="formTemplate ? formTemplate: formDefaultTemplate; context:{}">
+        </ng-container>
+      </ng-container>
+    </div>
+
+    <div class="app-right-sidenav-templated-footer">
+      <ng-template #formButtonsDefaultTemplate>
+        No form buttons template specified
+      </ng-template>
+      <ng-container *ngTemplateOutlet="formButtonsTemplate ? formButtonsTemplate: formButtonsDefaultTemplate; context:{}">
+      </ng-container>
+    </div>
+
+  </div>
+</mat-sidenav>

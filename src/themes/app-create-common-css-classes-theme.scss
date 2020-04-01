@@ -1,0 +1,27 @@
+@mixin app-create-common-css-classes($theme) {
+    $primary: map-get($theme, primary);
+    $accent: map-get($theme, accent);
+    $warn: map-get($theme, warn);
+    $foreground: map-get($theme, foreground);
+    $background: map-get($theme, background);
+
+
+    // take a look at \node_modules\@angular\material\_theming.scss
+
+    // .my-mat-primary-default-bg { background-color: mat-color($primary, default); }
+    // .my-mat-primary-default-color { color: mat-color($primary, default-contrast); }
+    .my-mat-foreground-text { color: mat-color($foreground, text); }
+    .my-mat-foreground-secondary-text { color: mat-color($foreground, secondary-text); }
+
+    // .my-mat-primary-light-bg { background-color: mat-color($primary, lighter); }
+    // .my-mat-primary-light-color { color: mat-color($primary, lighter-contrast); }
+
+    // .my-mat-primary-dark-bg { background-color: mat-color($primary, darker);  }
+    .my-mat-primary-darker-contrast-color { color: mat-color($primary, darker-contrast); }
+
+    // Custom Forms/Inputs
+    // .mat-form-field-infix { background-color: mat-color($primary, A100); }
+
+    // Custom Navbar
+    .mat-ink-bar { background-color: mat-color($accent, 500) !important; }
+}

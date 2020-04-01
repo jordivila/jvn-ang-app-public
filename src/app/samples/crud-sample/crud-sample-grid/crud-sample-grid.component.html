@@ -1,0 +1,60 @@
+<app-crud-sample-filter
+  #TFilterComponent
+  [title]="initMessage"
+  [isOpen]="isFilterOpen"
+  (isOpenChanged)="onFilterToggleClick($event)">
+</app-crud-sample-filter>
+
+<app-crud-grid-buttons 
+  [buttons]="gridButtons">
+</app-crud-grid-buttons>
+
+<div class="grid-fixed-height-scroll mat-elevation-z8">
+
+  <app-crud-grid-messages
+    [isLoading]="isLoading"
+    [isErrorThrown]="isErrorThrown"
+    [isInitMessageShown]="isInitMessageShown"
+    [isEmptyMessageShown]="isEmptyMessageShown"
+    [errorMessage]="errorMessage"
+    [initMessage]="initMessage"
+    [noDataFoundMessage]="noDataFoundMessage">
+  </app-crud-grid-messages>
+
+  <mat-table 
+    #table
+    class=""
+    [ngClass]="{blurOverlay: isCrudMessageVisible}"
+    [dataSource]="dataSource"
+    matSort 
+    matSortActive="userId" 
+    matSortDisableClear 
+    matSortDirection="asc">
+
+    <ng-container matColumnDef="userId">
+      <mat-header-cell [fxShow.xs]="false" *matHeaderCellDef mat-sort-header>Id.</mat-header-cell>
+      <mat-cell [fxShow.xs]="false" *matCellDef="let row">{{ row.userId }}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="loginName">
+      <mat-header-cell  *matHeaderCellDef mat-sort-header>Login Name</mat-header-cell>
+      <mat-cell *matCellDef="let row">{{ row.loginName }}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="fullName">
+      <mat-header-cell [fxShow.xs]="false" *matHeaderCellDef mat-sort-header>Full Name</mat-header-cell>
+      <mat-cell [fxShow.xs]="false" *matCellDef="let row">{{ row.fullName }}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="email">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>Email</mat-header-cell>
+      <mat-cell *matCellDef="let row">{{ row.email }}</mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;" (click)="onRowClick(row)"></mat-row>
+  </mat-table>
+  <mat-paginator 
+    [ngClass]="{blurOverlay: isCrudMessageVisible}"
+    [length]="resultsLength"></mat-paginator>
+</div>

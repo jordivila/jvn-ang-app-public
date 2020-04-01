@@ -1,0 +1,15 @@
+<ng-container *ngIf="offlineMetadata !== null">
+    <app-product-viewer-grid 
+        (actionTriggeredEvent)="onActionTriggeredEvent($event)"
+        [offlineMetadata]="offlineMetadata">
+    </app-product-viewer-grid>
+    <app-product-viewer-graph
+        #TFilterComponent
+        [title]="'Charts: Impedance / Frequency'"
+        [isOpen]="isOpen"
+        [offlineMetadata]="offlineMetadata"
+        [productIdList]="selectedIds"
+        [mediaQueryAlias]="mediaQueryAlias"
+        (isOpenChanged)="onFormClose()">
+    </app-product-viewer-graph>    
+</ng-container>

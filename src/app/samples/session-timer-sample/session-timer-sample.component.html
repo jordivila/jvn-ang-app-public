@@ -1,0 +1,8 @@
+<p>{{explanationMessage}}</p>
+
+
+<app-session-timer 
+  (sessionExpired)="onSessionExpired($event)" 
+  [percetageToShowModal]="percetageToShowModal"
+  [sessionTimeoutInMinutes]="sessionTimeoutInMinutes">
+</app-session-timer>

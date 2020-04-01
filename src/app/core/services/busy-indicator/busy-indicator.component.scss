@@ -1,0 +1,5 @@
+@import "../../../../assets/css/variables.scss";
+
+.busy-indicator {position:fixed;z-index:$waitIndicatorZIndex;width:100%;top:0;height:100%;}
+.busy-indicator-content {top:40%;position:relative;width:100%;text-align:center;}
+.busy-indicator-content mat-progress-spinner {margin:0 auto 0 auto;}

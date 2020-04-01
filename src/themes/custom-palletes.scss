@@ -1,0 +1,98 @@
+$mat-redex-dark-primary-text: rgba(black, 0.87);
+$mat-redex-light-primary-text: white;
+
+$mat-redex-grey-50: #FBFBFB;
+$mat-redex-grey-100: #F3F3F3;
+$mat-redex-grey-200: #E3E3E3;
+$mat-redex-grey-300: #CCCCCC;
+$mat-redex-grey-400: #999999;
+$mat-redex-grey-500: #8E8E8E;
+$mat-redex-grey-600: #666666;
+$mat-redex-grey-700: #535353;
+$mat-redex-grey-800: #353535;
+$mat-redex-grey-900: #151515;
+$mat-redex-grey-A100: #ffffff;
+$mat-redex-grey-A200: #999999;
+$mat-redex-grey-A400: #bdbdbd;
+$mat-redex-grey-A700: #000000;
+
+$mat-redex-grey: (
+  50: $mat-redex-grey-50,
+  100: $mat-redex-grey-100,
+  200: $mat-redex-grey-200,
+  300: $mat-redex-grey-300,
+  400: $mat-redex-grey-400,
+  500: $mat-redex-grey-500,
+  600: $mat-redex-grey-600,
+  700: $mat-redex-grey-700,
+  800: $mat-redex-grey-800,
+  900: $mat-redex-grey-900,
+  A100: $mat-redex-grey-A100,
+  A200: $mat-redex-grey-A200,
+  A400: $mat-redex-grey-A400,
+  A700: $mat-redex-grey-A700,
+  contrast: (
+    50: $mat-redex-dark-primary-text,
+    100: $mat-redex-dark-primary-text,
+    200: $mat-redex-dark-primary-text,
+    300: $mat-redex-dark-primary-text,
+    400: $mat-redex-dark-primary-text,
+    500: $mat-redex-dark-primary-text,
+    600: $mat-redex-light-primary-text,
+    700: $mat-redex-light-primary-text,
+    800: $mat-redex-light-primary-text,
+    900: $mat-redex-light-primary-text,
+    A100: $mat-redex-dark-primary-text,
+    A200: $mat-redex-dark-primary-text,
+    A400: $mat-redex-dark-primary-text,
+    A700: $mat-redex-light-primary-text,
+  )
+);
+
+$mat-redex-red-50: #FFEAEC;
+$mat-redex-red-100: #FFCACC;
+$mat-redex-red-200: #FC958E;
+$mat-redex-red-300: #F56962;
+$mat-redex-red-400: #F45B41;
+$mat-redex-red-500: #FF2C0A;
+$mat-redex-red-600: #F51A11;
+$mat-redex-red-700: #E3000B;
+$mat-redex-red-800: #D60000;
+$mat-redex-red-900: #BC120D;
+$mat-redex-red-A100: #FFF8F8;
+$mat-redex-red-A200: #F45B41;
+$mat-redex-red-A400: #FF9292;
+$mat-redex-red-A700: #BC120D;
+
+$mat-redex-red: (
+  50: $mat-redex-red-50,
+  100: $mat-redex-red-100,
+  200: $mat-redex-red-200,
+  300: $mat-redex-red-300,
+  400: $mat-redex-red-400,
+  500: $mat-redex-red-500,
+  600: $mat-redex-red-600,
+  700: $mat-redex-red-700,
+  800: $mat-redex-red-800,
+  900: $mat-redex-red-900,
+  A100: $mat-redex-red-A100,
+  A200: $mat-redex-red-A200,
+  A400: $mat-redex-red-A400,
+  A700: $mat-redex-red-A700,
+  contrast: (
+    50: $mat-redex-dark-primary-text,
+    100: $mat-redex-dark-primary-text,
+    200: $mat-redex-dark-primary-text,
+    300: $mat-redex-dark-primary-text,
+    400: $mat-redex-dark-primary-text,
+    500: $mat-redex-dark-primary-text,
+    600: $mat-redex-light-primary-text,
+    700: $mat-redex-light-primary-text,
+    800: $mat-redex-light-primary-text,
+    900: $mat-redex-light-primary-text,
+    A100: $mat-redex-dark-primary-text,
+    A200: $mat-redex-dark-primary-text,
+    A400: $mat-redex-dark-primary-text,
+    A700: $mat-redex-light-primary-text,
+  )
+);

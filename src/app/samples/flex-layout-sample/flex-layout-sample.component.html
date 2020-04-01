@@ -1,0 +1,15 @@
+  <ng-template #flexDomElementBasedOnLayoutSize let-size="size">
+      <div *ngIf="media.isActive(size)">This Dom Element is only rendered when media.isActive('{{size}}') is true</div>
+  </ng-template>
+  
+  <div class="flex-contact-toolbar">
+    <p>Sample page using @angular/flex-layout </p>
+    <ng-container *ngTemplateOutlet="flexDomElementBasedOnLayoutSize; context: { size: 'xs' }"></ng-container>
+    <ng-container *ngTemplateOutlet="flexDomElementBasedOnLayoutSize; context: { size: 'sm' }"></ng-container>
+    <ng-container *ngTemplateOutlet="flexDomElementBasedOnLayoutSize; context: { size: 'md' }"></ng-container>
+    <ng-container *ngTemplateOutlet="flexDomElementBasedOnLayoutSize; context: { size: 'lg' }"></ng-container>
+    <ng-container *ngTemplateOutlet="flexDomElementBasedOnLayoutSize; context: { size: 'xl' }"></ng-container>
+    <br /> 
+    {{mediaQueryAlias}}
+    <br />
+  </div>

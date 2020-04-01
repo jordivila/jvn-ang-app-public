@@ -1,0 +1,10 @@
+.theme-sample-toolbar {      display: flex;      flex-direction: row;      flex-wrap: wrap;  justify-content: center;align-content:center;  }
+.theme-sample-toolbar mat-toolbar { flex:0 0 20em; margin:0 0 1em 0;overflow:hidden;}
+.theme-sample-toolbar mat-toolbar-row {  display:table; }
+.theme-sample-toolbar mat-toolbar-row > div { display:table-row; }
+.theme-sample-toolbar mat-toolbar-row > div > div { display:table-cell;padding:1em 0 1em 0; font-size:0.8em;}
+.theme-sample-toolbar mat-toolbar-row > div > div:first-child {   text-align:left;}
+.theme-sample-toolbar mat-toolbar-row > div > div:last-child {  text-align:right;}
+
+.ui-mobile .theme-sample-toolbar mat-toolbar { flex:0 0 auto; }
+.ui-mobile .theme-sample-toolbar mat-toolbar { font-size:0.9em; }   

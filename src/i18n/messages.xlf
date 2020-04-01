@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="9f86156fd94a04d4a2d1c26fbbc2b9279d8c8ae1" datatype="html">
+        <source>Privacy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Privacy</note>
+        <note priority="1" from="meaning">Footer Privacy link</note>
+      </trans-unit>
+      <trans-unit id="9947cb912088db541d93e436ab67ffed727cb7f2" datatype="html">
+        <source>Legal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Legal</note>
+        <note priority="1" from="meaning">Footer Legal link</note>
+      </trans-unit>
+      <trans-unit id="1ad25803328bf926699b345cc38df4942ab929dd" datatype="html">
+        <source>copyright © 2020, Würth Elektronik Group , All rights reserved</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">Copyright</note>
+        <note priority="1" from="meaning">Footer Copyright link</note>
+      </trans-unit>
+      <trans-unit id="898920171eb062b84aae66aa30458f6936b44593" datatype="html">
+        <source>Details </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/redexpert/home/product-viewer-detail/product-viewer-grid/product-viewer-grid.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <note priority="1" from="description">Detail</note>
+      </trans-unit>
+      <trans-unit id="4d563ab6c6a17feb5c2b4fd7392f90ee608b36ef" datatype="html">
+        <source>Oops!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/not-found/not-found.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">Ooops</note>
+        <note priority="1" from="meaning">Not Found Page</note>
+      </trans-unit>
+      <trans-unit id="86a13522e195b175898baf6d6d5bb5864654bceb" datatype="html">
+        <source>The page you were looking for does not exist.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/not-found/not-found.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Page not found explained</note>
+        <note priority="1" from="meaning">Not Found Page</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

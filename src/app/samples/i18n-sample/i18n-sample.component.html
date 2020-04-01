@@ -1,0 +1,25 @@
+<h2 i18n="i18n Sample Page|This is an i18 message">This is an i18 message!</h2>
+
+
+<a  href="https://angular.io/guide/i18n" target="new">
+  <ng-container i18n="i18n Sample Page|More Info here@@MoreInfoi18n">More info about i18n here</ng-container>
+</a>
+<br/> 
+<a href="https://medium.com/@feloy/deploying-an-i18n-angular-app-with-angular-cli-fc788f17e358" target="new">
+  <ng-container i18n="i18n Sample Page|How to deploy@@MoreInfoDeploy">How to deploy an i18n angular app here</ng-container>
+</a>
+<br/>
+<div>
+  <p>A: {{aNumber | currency:'USD':'symbol'}}</p>
+  <p>B: {{aNumber | currency:'USD':'symbol':'4.2-2'}}</p>
+</div>
+
+<br/>
+<br/>
+
+<ng-template ngFor let-lang [ngForOf]="languages">
+  <span *ngIf="lang.code !== localeId">
+    <a href="/{{lang.code}}/index.html">{{lang.label}}</a>
+  </span>
+  <span *ngIf="lang.code === localeId">{{lang.label}} </span>
+</ng-template>

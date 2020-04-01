@@ -1,0 +1,8 @@
+<app-crud-sample-grid 
+    (actionTriggeredEvent)="onActionTriggeredEvent($event)">
+</app-crud-sample-grid>
+<app-crud-sample-form 
+    [isOpen]="isOpen" 
+    [userId]="selectedUserId" 
+    (closeEvent)="onFormClose()">
+</app-crud-sample-form>

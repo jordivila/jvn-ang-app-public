@@ -1,0 +1,15 @@
+:host {
+    // prevents the user from selecting text
+    // while creating an area during mousemove
+    // https://caniuse.com/#feat=user-select-none
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    i.material-icons {
+        cursor: pointer;
+    }
+
+}

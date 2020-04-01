@@ -1,0 +1,12 @@
+html { overflow-y: hidden; /* prevents bothered screen when scroll appears */}
+/* body{
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: top left !important;
+    background-attachment: fixed !important;
+} */
+
+.blurOverlay {    -webkit-filter: blur(5px);    -moz-filter: blur(5px);    -o-filter: blur(5px);    -ms-filter: blur(5px);    filter: blur(5px);    }
+
+.truncate-text {overflow: hidden;  white-space: nowrap;  display: block;  text-overflow: ellipsis;  width: 100%;}
+.truncate-text-flex {flex: 1;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;text-align: center;}

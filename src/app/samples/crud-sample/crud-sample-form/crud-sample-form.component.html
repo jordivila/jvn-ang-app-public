@@ -1,0 +1,48 @@
+<app-form-side-templated 
+  [formTemplate]="formTemplate"
+  [isOpen]="isOpen"
+  [msgTitle]="msgTitle"
+  [msgGettingFormData]="msgGettingFormData"
+  [msgErrorGettingFormData]="msgErrorGettingFormData"
+  [msgSavingData]="msgSavingData"
+  [msgDataSavedSuccessfully]="msgDataSavedSuccessfully"
+
+  [initModels]="initModels.bind(this)"
+  [initFormGroup]="initFormGroup.bind(this)"
+  [closeForm]="closeForm.bind(this)"
+  [isEdit]="isEdit.bind(this)"
+  [savePost]="savePost.bind(this)"
+  [savePut]="savePut.bind(this)">
+
+    <ng-template #formTemplate let-theForm="theForm">
+  
+      <mat-form-field >
+        <input matInput placeholder="User Name (optional)" [formControl]="theForm.controls.userName" />
+        <mat-error>
+          <app-control-messages controlLabel="User Name" [control]="theForm.controls.userName"></app-control-messages>
+        </mat-error>
+      </mat-form-field>
+  
+      <mat-form-field >
+        <input matInput placeholder="First Name" [formControl]="theForm.controls.firstName" />
+        <mat-error>
+          <app-control-messages controlLabel="First Name" [control]="theForm.controls.firstName"></app-control-messages>
+        </mat-error>
+      </mat-form-field>
+  
+      <mat-form-field >
+        <input matInput placeholder="Last Name" [formControl]="theForm.controls.lastName" />
+        <mat-error>
+          <app-control-messages controlLabel="Last Name" [control]="theForm.controls.lastName"></app-control-messages>
+        </mat-error>
+      </mat-form-field>
+  
+      <mat-form-field >
+        <input matInput placeholder="Email" [formControl]="theForm.controls.email" />
+        <mat-error>
+          <app-control-messages controlLabel="Email" [control]="theForm.controls.email"></app-control-messages>
+        </mat-error>
+      </mat-form-field>
+  
+  </ng-template>
+</app-form-side-templated>

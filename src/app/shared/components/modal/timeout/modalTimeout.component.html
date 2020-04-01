@@ -1,0 +1,43 @@
+<div 
+    bsModal 
+    #childModal="bs-modal" 
+    class="modal fade app-modal" 
+    role="dialog" 
+    tabindex="-1" 
+    [config]="{ ignoreBackdropClick: true, keyboard: false }"
+    (onHidden)="modalHidden()">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="app-alert-dialog app-timeout-dialog">
+                <div class="modal-header bg-warning">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <h2 class="modal-title">
+                                <i class="fa fa-exclamation-triangle"></i> {{title}}
+                                <span class="timer">
+                                    {{model.max - model.value | secondsToDateTime | date:'m:ss'}}
+                                </span>
+                            </h2>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="modal-close" (click)="childModal.hide()">
+                                <i class="icon-close-thin default"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-progress-bar">
+                    <progressbar [max]="model.max" [value]="model.value" [type]="model.type"></progressbar>
+                </div>
+                <div class="modal-body">
+                    <span class="text">{{body}}</span>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" (click)="okClicked()">Keep working</button>
+                    <button class="btn btn-secondary" (click)="koClicked()">Sign out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

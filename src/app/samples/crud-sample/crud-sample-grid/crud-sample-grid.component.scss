@@ -1,0 +1,19 @@
+app-crud-sample-grid {
+    .grid-fixed-height-scroll {
+      display: flex;
+      flex-direction: column;
+      max-height: 50em;
+      position: relative;
+      mat-table {
+        overflow: auto;
+        min-height: 30em;
+        mat-header-row {
+          top: 0;
+          position: sticky;
+          z-index: 1;
+          background-color: inherit;
+        }
+      }
+    }
+  }
+  

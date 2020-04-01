@@ -1,0 +1,55 @@
+    .grid-fixed-height-scroll {
+        display: flex;
+        flex-direction: column;
+        max-height: 50em;
+        position: relative;
+        mat-table {
+            overflow: auto;
+            min-height: 30em;
+            .mat-column-Order_Code {
+                // flex: 0 0 35%;
+                margin-right: 0.5em;
+            }
+            .mat-column-Series {
+                // flex: 0 0 25%;
+                margin-right: 0.5em;
+            }
+            mat-header-row {
+                top: 0;
+                position: sticky;
+                z-index: 1;
+                background-color: inherit;
+            }
+            mat-row {
+                &.example-detail-row {
+                    height: 0;
+                }
+                mat-cell {
+                    &.mat-column-expandedDetail {
+                        mat-card {
+                            width: 100%;
+                            display: flex;
+                            div {
+                                &:first-child {
+                                    display: flex;
+                                    flex-direction: column;
+                                    button {
+                                        margin: 0 0 1em 0;
+                                    }
+                                }
+                            }
+                            ul {
+                                list-style-type: none; // display: flex;
+                                // flex-direction: row;
+                                // flex-wrap: wrap;
+                                li {
+                                    // flex: 1 0 auto;
+                                    // margin: 0 0 0.5em 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

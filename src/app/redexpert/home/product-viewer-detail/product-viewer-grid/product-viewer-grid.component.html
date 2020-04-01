@@ -1,0 +1,87 @@
+
+<app-product-viewer-filter
+  #TFilterComponent
+  [title]="rightPanelFilterTitle"
+  [isOpen]="isFilterOpen"
+  (isOpenChanged)="onFilterToggleClick($event)">
+</app-product-viewer-filter>
+
+<app-crud-grid-buttons 
+  [buttons]="gridButtons">
+</app-crud-grid-buttons>
+
+<div class="grid-fixed-height-scroll mat-elevation-z8">
+
+  <app-crud-grid-messages
+    [isLoading]="isLoading"
+    [isErrorThrown]="isErrorThrown"
+    [isInitMessageShown]="isInitMessageShown"
+    [isEmptyMessageShown]="isEmptyMessageShown"
+    [errorMessage]="errorMessage"
+    [initMessage]="initMessage"
+    [noDataFoundMessage]="noDataFoundMessage">
+  </app-crud-grid-messages>
+
+
+
+  <mat-table 
+      #table
+      class=""
+      [ngClass]="{blurOverlay: isCrudMessageVisible}"
+      [dataSource]="dataSource"
+      multiTemplateDataRows
+      matSort 
+      matSortActive="Order_Code" 
+      matSortDisableClear 
+      matSortDirection="asc">
+
+      <ng-container *ngFor="let disCol of displayedColumns; let colIndex = index" matColumnDef="{{disCol}}">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>{{displayedColumnsHash[disCol].Settings.title}}</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{row[disCol]}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="expandedDetail">
+
+          <mat-cell 
+            mat-cell 
+            *matCellDef="let row" 
+            [@detailExpand]="row == expandedElement ? 'expanded' : 'collapsed'"
+            [attr.colspan]="displayedColumns.length">
+
+            <mat-card >
+              <div>
+                  <h4 i18n="Detail">Details </h4>
+                  <button mat-mini-fab color="primary" (click)="onRowActionClick(row, 'show_chart')">
+                      <mat-icon>show_chart</mat-icon>
+                  </button>
+                  <button mat-mini-fab color="primary"  (click)="onRowActionClick(row, 'multiline_chart')">
+                      <mat-icon>multiline_chart</mat-icon>
+                  </button>
+              </div>            
+              <ul> 
+                <ng-container *ngFor="let item of displayedColumnsHash | keyvalue">
+                    <li *ngIf="!displayedColumnsHash[item.key].Settings.hidden">
+                        <span>{{displayedColumnsHash[item.key].Settings.title}}</span> : <span>{{row[item.key]}}</span>
+                    </li>            
+                </ng-container>
+              </ul>
+            </mat-card>
+          </mat-cell>
+      </ng-container>    
+
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row 
+        *matRowDef="let row; columns: displayedColumns;" 
+        (click)="onRowClick(row)">
+      </mat-row>
+      <mat-row 
+        *matRowDef="let row; columns: ['expandedDetail']" 
+        [@detailExpand]="row == expandedElement ? 'expanded' : 'collapsed'"
+        [class.example-detail-row]="expandedElement === undefined">
+      </mat-row>
+    </mat-table>
+    <mat-paginator 
+      [ngClass]="{blurOverlay: isCrudMessageVisible}"
+      [length]="resultsLength">
+    </mat-paginator>
+</div>

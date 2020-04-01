@@ -1,0 +1,47 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row (click)="onNavbarClose()">
+    <mat-list-item>
+      <div>
+        <app-menu-toggle [isOpen]="isOpen"></app-menu-toggle>
+      </div>
+    </mat-list-item>
+    <mat-list-item>
+      <h3 mat-subheader>EMI Filter Designer</h3>
+    </mat-list-item>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-nav-list>
+  <br />
+  <ng-container *ngFor="let item of items; let i = index">
+    <ng-container *ngIf="item.childs && (item.childs.length > 0)">
+      <mat-list-item [matMenuTriggerFor]="menu">
+        <mat-icon>{{item.icon}}</mat-icon>
+        <div mat-line>{{item.title}}</div>
+      </mat-list-item>
+      <mat-menu #menu="matMenu">
+        <ng-container *ngFor="let childItem of item.childs;">
+          <button mat-menu-item
+                  [routerLink]="[childItem.action]" 
+                  [routerLinkActive]="['active']" 
+                  [routerLinkActiveOptions]="{exact: true}" 
+                  (click)="onClickItem($event, childItem)">
+            <mat-icon>{{childItem.icon}}</mat-icon>
+            <span>{{childItem.title}}</span>
+          </button>
+        </ng-container>
+      </mat-menu>
+    </ng-container>
+    <ng-container *ngIf="!item.childs">
+      <mat-list-item
+        [routerLink]="[item.action]" 
+        [routerLinkActive]="['active']" 
+        [routerLinkActiveOptions]="{exact: false}" 
+        (click)="onClickItem($event, item)">
+
+        <mat-icon>{{item.icon}}</mat-icon>
+        <div mat-line>{{item.title}}</div>
+      </mat-list-item>
+    </ng-container>
+    <mat-divider></mat-divider>
+  </ng-container>
+</mat-nav-list>

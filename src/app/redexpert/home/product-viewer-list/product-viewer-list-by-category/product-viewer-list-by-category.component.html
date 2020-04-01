@@ -1,0 +1,26 @@
+<ng-template #productGroupTemplate let-groupKey="groupKey">
+  <app-product-viewer-list-item-array
+    [productListItems]="groupModules[groupKey]"
+    (visitClick)="onVisitClick($event, groupKey)">
+  </app-product-viewer-list-item-array>
+</ng-template>
+
+<ng-container *ngIf="['md', 'lg', 'xl'].includes(mediaQueryAlias)">
+  <mat-tab-group [(selectedIndex)]="groupKeySelected">
+    <mat-tab *ngFor="let groupKey of groupKeys" label="{{groupKey}}">
+      <ng-container *ngTemplateOutlet="productGroupTemplate; context: { groupKey: groupKey }"></ng-container>
+    </mat-tab>
+  </mat-tab-group>
+</ng-container>
+
+<ng-container *ngIf="['xs', 'sm'].includes(mediaQueryAlias)">
+  <mat-accordion>
+    <mat-expansion-panel *ngFor="let groupKey of groupKeys; let i = index;" [expanded]="groupKeySelected == i">
+      <mat-expansion-panel-header>
+        <mat-panel-title>{{groupKey}}</mat-panel-title>
+        <mat-panel-description></mat-panel-description>
+    </mat-expansion-panel-header>
+    <ng-container *ngTemplateOutlet="productGroupTemplate; context: { groupKey: groupKey }"></ng-container>
+    </mat-expansion-panel>
+  </mat-accordion>
+</ng-container>

@@ -1,0 +1,24 @@
+<ng-container *ngIf="image">
+    <app-coords-img-area-select
+        [selector]="selector"
+        class="app-cords-select-component"
+        [ngStyle]="{
+            'height': scaleValuePx(height, scale),
+            'width': scaleValuePx(width, scale)
+        }">
+    </app-coords-img-area-select>
+    <app-coords-img-area-drawer
+        [rects]="areasToDraw"
+        [scale]="scale"
+        class="app-cords-drawer-component"
+        [ngStyle]="{
+            'height': scaleValuePx(height, scale),
+            'width': scaleValuePx(width, scale)
+        }">
+    </app-coords-img-area-drawer> 
+    <img 
+        #theImage
+        [src]="imageData" 
+        [width]="scaleValue(width, scale)" 
+        [height]="scaleValue(height, scale)" />
+</ng-container>

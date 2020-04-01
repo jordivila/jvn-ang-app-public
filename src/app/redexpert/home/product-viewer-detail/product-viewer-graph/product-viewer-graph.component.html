@@ -1,0 +1,33 @@
+<div class="crud-grid-filter">
+  <app-filter-side-templated
+    [title]="title"
+    [formTemplate]="formTemplate"
+    [formButtonsTemplate]="formButtonsTemplate"
+    [isOpen]="isOpen">
+  </app-filter-side-templated>
+</div>  
+
+<ng-template #formButtonsTemplate>
+  <div>
+    <button 
+      type="button" 
+      mat-raised-button 
+      color="secondary"
+      (click)="cancelClick($event)">
+      <span>Close</span>
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #formTemplate>
+
+  <mat-tab-group (selectedTabChange)="tabChanged($event)">
+    <mat-tab label="1 Turn">
+      <div id="chartElement1" [ngClass]="['chartElement', mediaQueryAlias]"></div>  
+    </mat-tab>
+    <mat-tab label="2 Turn">
+      <div id="chartElement2" [ngClass]="['chartElement', mediaQueryAlias]"></div>  
+    </mat-tab>
+  </mat-tab-group>          
+
+</ng-template>

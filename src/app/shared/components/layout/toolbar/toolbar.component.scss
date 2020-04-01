@@ -1,0 +1,7 @@
+@import 'src/themes/custom-palletes';
+
+:host mat-toolbar-row {display: flex;align-items: center;}
+:host mat-toolbar-row div.col-text-title {display:flex;margin:0 0 0 2rem;}
+:host mat-toolbar-row div.col-text-title-redexpert span:nth-child(1) {color:$mat-redex-red-700;}
+:host mat-toolbar-row div.col-text-title-redexpert span:nth-child(2) {color:$mat-redex-grey-A100;}
+:host mat-toolbar-row div.col-text-title-page {text-align:left; margin:0 0 0 2rem; color: $mat-redex-grey-A100;}

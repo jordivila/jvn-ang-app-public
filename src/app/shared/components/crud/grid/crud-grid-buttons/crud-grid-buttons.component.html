@@ -1,0 +1,14 @@
+<ng-container *ngIf="buttons && (buttons.length > 0)">
+  <mat-toolbar class="mat-elevation-z8">
+    <mat-toolbar-row>
+      <ng-container *ngFor="let item of buttons; let i = index">
+        <button mat-mini-fab color="primary" (click)="item.onClickCallback($event)" title="{{item.text}}">
+          <mat-icon>{{item.iconClass}}</mat-icon>
+        </button>
+        <button mat-button (click)="item.onClickCallback($event)" title="{{item.text}}">
+          <span>{{item.text}}</span>
+        </button>
+      </ng-container>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</ng-container>

@@ -1,0 +1,51 @@
+<div *ngIf="fileMetadata" class="content-exists-box">
+
+    <div class="top-bar mat-toolbar" color="secondary">
+        <div>
+            <span class="truncate-text" title="{{fileMetadata.name}}">
+                <i class="material-icons" title="Uploaded {{fileMetadata.dateUploaded}}">info</i>
+                {{fileMetadata.name}}
+            </span>
+        </div>
+    </div>
+
+    <div class="file-content-box">
+
+        <div>
+            <app-coords-img-area-tools
+                (applyZoom)="onZoomApply($event)"
+                (areaCreate)="onAreaCreate()"
+                (areaSetCoords)="onAreaStoreCoords()"
+                (pageIndexChange)="onFilePaginate($event)"
+                [fileMetadata]="fileMetadata"
+                [fileImageAreaSelector]="fileImageAreaSelector"
+                [fileViewerState]="fileViewerState"
+                [fileImageScale]="fileImageScale">
+            </app-coords-img-area-tools>
+
+            <app-coords-img-area-list 
+                [fileImageAreaSelector]="fileImageAreaSelector" 
+                [fileCoordsSelected]="fileCoordsSelected" 
+                (selectedFileImageArea)="onAreaListItemSelected($event)"
+                (removeFileImageArea)="onAreaListItemRemove($event)">
+            </app-coords-img-area-list>
+        </div>
+
+        <div class="content-file-preview-box item-wrap-sm">
+            <div class="main">
+                <div class="content">
+                    <app-coords-img-area-viewer 
+                        *ngIf="fileImageUrl" 
+                        [fileViewerState]="fileViewerState"
+                        [src]="fileImageUrl" 
+                        [scale]="fileImageScale" 
+                        (scaleApply)="onZoomApply($event)"
+                        [selector]="fileImageAreaSelector" 
+                        [fileCoordsSelected]="fileCoordsSelected">
+                    </app-coords-img-area-viewer>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

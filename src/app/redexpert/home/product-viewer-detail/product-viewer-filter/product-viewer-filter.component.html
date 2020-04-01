@@ -1,0 +1,100 @@
+
+<div class="crud-grid-filter">
+  <app-crud-grid-filter-toggle [title]="title" [isOpen]="isOpen" (isOpenChanged)="onFilterToggleClick($event, true)"></app-crud-grid-filter-toggle>
+  <app-filter-side-templated
+    [title]="title"
+    [formTemplate]="formTemplate"
+    [formButtonsTemplate]="formButtonsTemplate"
+    [isOpen]="isOpen">
+  </app-filter-side-templated>
+</div>
+
+<ng-template #formButtonsTemplate>
+  <div>
+    <button 
+      type="button" 
+      mat-raised-button 
+      color="secondary"
+      (click)="cancelClick($event)">
+      <span>Cancel</span>
+    </button>
+  </div>
+  <div>
+    <button 
+      mat-raised-button 
+      color="primary"
+      (click)="searchClick()"
+      [disabled]="!filterbuttonEnabled">
+      <span>Search</span>
+    </button>
+  </div>    
+</ng-template>
+
+<ng-template #formTemplate>
+
+    <mat-toolbar color="'basic'">
+      <mat-toolbar-row>
+        <div>Pulse Parameters</div>
+      </mat-toolbar-row>
+    </mat-toolbar>
+
+    <form 
+      *ngIf="filterForm"
+      [formGroup]="filterForm" 
+      (submit)="searchClick()" 
+      #filterFormSpy="ngForm">
+
+
+      <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
+        <g id="Pulse" transform="translate(0,-952.36218)" class="svg-layer">
+          <path d="m 82.80193,994.9491 11.571572,0.022" id="c1"></path>
+          <path d="m 215.30564,994.9562 17.57157,0.022" id="c2"></path>
+          <ellipse ry="3.0936711" rx="3.0936713" cy="994.9696" cx="233.48842" id="c_terminal1" class="fill"></ellipse>
+          <ellipse ry="3.0936711" rx="3.0936713" cy="994.91333" cx="-81.510895" id="c_terminal2" class="fill" transform="scale(-1,1)"></ellipse>
+          <path id="c_noise_tr_high" d="m 213.47014,994.9541 -44.89576,0.01 m -21.79151,0.014 -50.379338,0.01"></path>
+          <g transform="matrix(0,-1,-1,0,260.85639,1265.3478)" id="c_ferrite" class="fill">
+            <path id="c-tr-higher1-7-0-9-2-5" d="m 275.8802,86.15777 -11,0 0,34.625 11,0 z"></path>
+          </g>
+          <g class="svg-arrow fill red" id="c_arrow" transform="matrix(0,-1,1,0,30.832389,1205.5975)">
+            <path id="path26-5" d="m 234.62437,109.39769 0,32.05"></path>
+            <path class="ending" id="path28-1" d="m 234.64286,147.56754 4.01786,-12.14286 -8.05804,0.067 z"></path>
+          </g>
+          <path d="m 139.3,1036.6122 11.1,0 0,-21.25 14.2,0 0,21.25 11.1,0" id="c_pulse" class="red"></path>
+        </g>
+      </svg>
+    
+      <legend>Single Pulse</legend>
+    
+      <mat-form-field>
+        <input matInput placeholder="Current" [formControl]="filterForm.controls.current" />
+        <mat-error>
+          <app-control-messages controlLabel="Current" [control]="filterForm.controls.current"></app-control-messages>
+        </mat-error>
+      </mat-form-field>
+    
+      <mat-form-field>
+        <input matInput placeholder="Lenght" [formControl]="filterForm.controls.length" />
+        <mat-error>
+          <app-control-messages controlLabel="Length" [control]="filterForm.controls.length"></app-control-messages>
+        </mat-error>
+      </mat-form-field>
+    
+      <legend>Pulse repetition for 8ms pulses</legend>
+    
+      <mat-form-field>
+        <input matInput placeholder="Number" [formControl]="filterForm.controls.number" />
+        <mat-error>
+          <app-control-messages controlLabel="Number" [control]="filterForm.controls.number"></app-control-messages>
+        </mat-error>
+      </mat-form-field>
+    
+      <mat-form-field>
+        <input matInput placeholder="Current" [formControl]="filterForm.controls.current2" />
+        <mat-error>
+          <app-control-messages controlLabel="Current" [control]="filterForm.controls.current2"></app-control-messages>
+        </mat-error>
+      </mat-form-field>
+
+    </form>
+
+</ng-template>

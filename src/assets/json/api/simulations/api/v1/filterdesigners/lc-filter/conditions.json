@@ -1,0 +1,26 @@
+{
+    "L1": [
+        {
+            "field": "Inductance",
+            "comparator": "<=",
+            "value": 1.51E-07
+        },
+        {
+            "field": "Inductance",
+            "comparator": ">=",
+            "value": 7.96E-09
+        }
+    ],
+    "C1": [
+        {
+            "field": "C2",
+            "comparator": "<=",
+            "value": 6.04E-05
+        },
+        {
+            "field": "C2",
+            "comparator": ">=",
+            "value": 3.18E-06
+        }
+    ]
+}

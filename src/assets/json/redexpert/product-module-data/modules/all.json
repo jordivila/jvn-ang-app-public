@@ -1,0 +1,700 @@
+[
+    {
+        "ModuleID": 1,
+        "Name": "PCB Ferrites",
+        "Menu": {
+            "sort": 1,
+            "category": "EMC Components",
+            "icon": "pcbferrite",
+            "title": "Ferrites for PCB Assembly",
+            "active": true,
+            "sumary": "pcb-ferrites-sumary",
+            "groupimages": "pcbferritesimages",
+            "apps": {
+                "groups": {
+                    "Filter": {
+                        "img": "img-pcb-ferrites-filter",
+                        "sumary": "desc-pcb-ferrites-filter",
+                        "category": "FilterAppGroup",
+                        "titles": "FilterPCB",
+                        "svgImage": "image-light.svg"
+                    },
+                    "Pulse": {
+                        "img": "img-pcb-ferrites-pulse",
+                        "sumary": "desc-pcb-ferrites-pulse",
+                        "category": "FilterAppGroup",
+                        "titles": "PulsePCB",
+                        "svgImage": "image-light.svg"
+                    }
+                },
+                "classes": [
+                    "Filter",
+                    "Pulse"
+                ]
+            }
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 2,
+        "Name": "Cable Ferrites",
+        "Menu": {
+            "sort": 2,
+            "category": "EMC Components",
+            "icon": "cableferrite",
+            "title": "Ferrites for Cable Assembly",
+            "active": true,
+            "sumary": "cable-ferrites-sumary",
+            "groupimages": "cableferrites",
+            "apps": {
+                "groups": {
+                    "Filter": {
+                        "img": "img-cable-ferrites-filter",
+                        "sumary": "desc-cable-ferrites-filter",
+                        "category": "FilterAppGroup",
+                        "titles": "FilterCableFerrites",
+                        "svgImage": "image-light.svg"
+                    }
+                },
+                "classes": [
+                    "Filter"
+                ]
+            }
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 3,
+        "Name": "CMCP",
+        "Menu": {
+            "sort": 3,
+            "category": "EMC Components",
+            "icon": "cmcp",
+            "title": "Common Mode Chokes for Power Lines",
+            "active": true,
+            "sumary": "cmcpl-sumary",
+            "groupimages": "CMCPL",
+            "apps": {
+                "groups": {
+                    "Filter": {
+                        "img": "img-cmcd-filter",
+                        "sumary": "desc-cmcpl-filter",
+                        "category": "FilterAppGroup",
+                        "titles": "FilterCMCPL",
+                        "svgImage": "image-light.svg"
+                    }
+                },
+                "classes": [
+                    "Filter"
+                ]
+            }
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 4,
+        "Name": "Inductors",
+        "Menu": {
+            "sort": 1,
+            "category": "Power Products",
+            "icon": "pinductor",
+            "title": "Power Inductors",
+            "active": true,
+            "sumary": "power-inductors-sumary",
+            "groupimages": "power-inductors",
+            "apps": {
+                "groups": {
+                    "BuckConverterNonSync": {
+                        "img": "img-powerinductor-buck",
+                        "sumary": "desc-powerinductor-buck",
+                        "category": "ConverterAppsGroup",
+                        "titles": "BuckPowerInductor",
+                        "svgImage": "buck_non_sync.svg",
+                        "groupTitle": "buck",
+                        "limit": false,
+                        "order": 1
+                    },
+                    "BuckConverterSync": {
+                        "img": "img-powerinductor-bucksync",
+                        "sumary": "desc-powerinductor-bucksync",
+                        "category": "ConverterAppsGroup",
+                        "titles": "BuckPowerInductorSync",
+                        "svgImage": "buck_sync.svg",
+                        "groupTitle": "",
+                        "limit": true,
+                        "order": 2
+                    },
+                    "BoostConverterNonSync": {
+                        "img": "img-powerinductor-boost",
+                        "sumary": "desc-powerinductor-boost",
+                        "category": "ConverterAppsGroup",
+                        "titles": "BoostPowerInductor",
+                        "svgImage": "boost_non_sync.svg",
+                        "groupTitle": "boost",
+                        "limit": false,
+                        "order": 3
+                    },
+                    "BoostConverterSync": {
+                        "img": "img-powerinductor-boostsync",
+                        "sumary": "desc-powerinductor-boostsync",
+                        "category": "ConverterAppsGroup",
+                        "titles": "BoostPowerInductorSync",
+                        "svgImage": "boost_sync.svg",
+                        "groupTitle": "",
+                        "limit": true,
+                        "order": 4
+                    },
+                    "SepicConverter": {
+                        "img": "img-powerinductor-sepic",
+                        "sumary": "desc-powerinductor-sepic",
+                        "category": "ConverterAppsGroup",
+                        "titles": "SepicPowerInductor",
+                        "svgImage": "sepic.svg",
+                        "groupTitle": "",
+                        "limit": true,
+                        "order": 5
+                    },
+                    "LossCalculator": {
+                        "img": "img-powerinductor-loss",
+                        "sumary": "desc-powerinductor-loss",
+                        "category": "ConverterAppsGroup",
+                        "titles": "LossPowerInductor",
+                        "locked4Anonymous": true,
+                        "svgImage": "manual_losses.svg",
+                        "groupTitle": "",
+                        "limit": false,
+                        "order": 6
+                    }
+                },
+                "classes": [
+                    "BuckConverterNonSync",
+                    "BuckConverterSync",
+                    "BoostConverterNonSync",
+                    "BoostConverterSync",
+                    "SepicConverter",
+                    "LossCalculator"
+                ],
+                "titles": [
+                    "BuckPowerInductor",
+                    "BuckPowerInductorSync",
+                    "BoostPowerInductor",
+                    "BoostPowerInductorSync",
+                    "SepicPowerInductor",
+                    "LossPowerInductor"
+                ]
+            }
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 6,
+        "Name": "PFC Chokes",
+        "Menu": {
+            "sort": 16,
+            "category": "Power Products",
+            "icon": "pfchokes",
+            "title": "PFC Chokes",
+            "active": true,
+            "sumary": "pfcchokes-sumary",
+            "groupimages": "pfcchokes",
+            "apps": {
+                "groups": {
+                    "PFC": {
+                        "img": "img-pfc-app",
+                        "sumary": "desc-pfc-app",
+                        "category": "ACDC Converter",
+                        "titles": "PFC Chokes",
+                        "svgImage": "image-light.svg"
+                    }
+                },
+                "classes": [
+                    "PFC"
+                ],
+                "options": {
+                    "singlePane": true,
+                    "hiddenSelection": true
+                }
+            }
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 8,
+        "Name": "RF Inductors",
+        "Menu": {
+            "sort": 15,
+            "category": "Signal & Communications",
+            "icon": "rfinductor",
+            "title": "RF Inductors",
+            "active": true,
+            "sumary": "rfinductor-sumary",
+            "groupimages": "rfinductor"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 9,
+        "Name": "RJ45 Transformers",
+        "Menu": {
+            "sort": 10,
+            "category": "Signal & Communications",
+            "icon": "rj45",
+            "title": "RJ45 LAN Transformers",
+            "active": true,
+            "sumary": "rj45lan-sumary",
+            "groupimages": "rj45lan"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 10,
+        "Name": "LAN Transformers",
+        "Menu": {
+            "sort": 9,
+            "category": "Signal & Communications",
+            "icon": "lan",
+            "title": "LAN Transformers",
+            "active": true,
+            "sumary": "lantransformers-sumary",
+            "groupimages": "lantransformers"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 11,
+        "Name": "EMC Capacitors",
+        "Menu": {
+            "sort": 11,
+            "category": "Capacitors",
+            "icon": "emccaps",
+            "title": "EMC Capacitors",
+            "active": true,
+            "sumary": "filmcapacitors-sumary",
+            "groupimages": "filmcapacitors"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 13,
+        "Name": "Multilayer Capacitors",
+        "Menu": {
+            "sort": 16,
+            "category": "Capacitors",
+            "icon": "mlccaps",
+            "title": "Multilayer Capacitors",
+            "active": true,
+            "sumary": "ceramicconden-sumary",
+            "groupimages": "ceramicconden"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 14,
+        "Name": "Polymer Capacitors",
+        "Menu": {
+            "sort": 12,
+            "category": "Capacitors",
+            "icon": "pcaps",
+            "title": "Polymer Capacitors",
+            "active": true,
+            "sumary": "polymercap-sumary",
+            "groupimages": "polymercap"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 15,
+        "Name": "Wireless Power",
+        "Menu": {
+            "sort": 5,
+            "category": "Power Products",
+            "icon": "wpcc",
+            "title": "Wireless Power Transmission",
+            "active": true,
+            "sumary": "wirelesspower-sumary",
+            "groupimages": "wirelesspower",
+            "apps": {
+                "groups": {
+                    "WPCCMatcher": {
+                        "img": "img-wirelesspower-matcher",
+                        "sumary": "desc-wirelesspower-matcher",
+                        "category": "WPCCAppGroup",
+                        "titles": "wpccMatcher",
+                        "svgImage": "image-light.svg"
+                    }
+                },
+                "classes": [
+                    "WPCCMatcher"
+                ],
+                "options": {
+                    "singlePane": true
+                }
+            }
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 18,
+        "Name": "Magic Power Module",
+        "Menu": {
+            "sort": 4,
+            "category": "Power Products",
+            "icon": "magic",
+            "title": "Magic Power Module",
+            "active": true,
+            "sumary": "magic-mod-sumary",
+            "groupimages": "magicmodimages"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 20,
+        "Name": "Electrolyte Capacitors",
+        "Menu": {
+            "sort": 13,
+            "category": "Capacitors",
+            "icon": "ecaps",
+            "title": "Electrolyte Capacitors",
+            "active": true,
+            "showAsInternal": false,
+            "sumary": "electrolyticcap-sumary",
+            "groupimages": "electrolyticcap"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 23,
+        "Name": "CMCD",
+        "Menu": {
+            "sort": 4,
+            "category": "EMC Components",
+            "icon": "cmcd",
+            "title": "Common Mode Chokes for Data and Signal Lines",
+            "active": true,
+            "sumary": "cmcdl-sumary",
+            "groupimages": "CMCDL",
+            "apps": {
+                "groups": {
+                    "Filter": {
+                        "img": "img-cmcd-filter",
+                        "sumary": "desc-cmcd-filter",
+                        "category": "FilterAppGroup",
+                        "titles": "cmcdataFilter",
+                        "svgImage": "image-light.svg"
+                    }
+                },
+                "classes": [
+                    "Filter"
+                ]
+            }
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 24,
+        "Name": "LED Visible",
+        "Menu": {
+            "sort": 2,
+            "title": "Visible LEDs",
+            "category": "Optoelectronics",
+            "sumary": "ledvisible-sumary",
+            "icon": "ledv",
+            "groupimages": "ledvisible",
+            "active": true
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 25,
+        "Name": "LED White",
+        "Menu": {
+            "sort": 3,
+            "title": "White LEDs",
+            "category": "Optoelectronics",
+            "sumary": "ledwhite-sumary",
+            "icon": "ledw",
+            "groupimages": "ledwhite",
+            "active": true
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 26,
+        "Name": "LED Horticulture",
+        "Menu": {
+            "sort": 1,
+            "title": "Horticulture LEDs",
+            "category": "Optoelectronics",
+            "sumary": "ledhorticulture-summary",
+            "icon": "ledh",
+            "groupimages": "ledhort",
+            "active": true,
+            "showAsInternal": false,
+            "apps": {
+                "groups": {
+                    "Horticalculator": {
+                        "img": "img-horticalculator",
+                        "sumary": "desc-horticalculator",
+                        "category": "HorticalculatorAppsGroup",
+                        "titles": "Horticalculator",
+                        "svgImage": "image-light.svg"
+                    }
+                }
+            },
+            "classes": [
+                "Horticalculator"
+            ],
+            "titles": [
+                "Horticalculator"
+            ]
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 27,
+        "Name": "Varistors",
+        "Menu": {
+            "sort": 10,
+            "category": "EMC Components",
+            "icon": "varistors",
+            "title": "Varistors",
+            "active": true,
+            "sumary": "varistors-sumary",
+            "groupimages": "varistors"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 28,
+        "Name": "LED UV",
+        "Menu": {
+            "sort": 4,
+            "category": "Optoelectronics",
+            "icon": "leduv",
+            "title": "Ultraviolet LEDs",
+            "active": true,
+            "showAsInternal": false,
+            "groupimages": "ledultraviolet",
+            "sumary": "ledultraviolet-sumary"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 29,
+        "Name": "LED Infrared",
+        "Menu": {
+            "sort": 5,
+            "category": "Optoelectronics",
+            "icon": "ledir",
+            "title": "Infrared LEDs",
+            "active": true,
+            "showAsInternal": false,
+            "groupimages": "ledinfrared",
+            "sumary": "ledinfrared-sumary"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 30,
+        "Name": "Wireless Connectivity",
+        "Menu": {
+            "sort": 8,
+            "category": "Signal & Communications",
+            "icon": "amber",
+            "title": "Wireless Connectivity",
+            "active": true,
+            "sumary": "wirelessconnectivity-sumary",
+            "groupimages": "wirelessconnectivity",
+            "apps": {
+                "groups": {
+                    "RangeEstimator": {
+                        "img": "img-wirelesstransmitter-range",
+                        "sumary": "desc-wirelesstransmitter-range",
+                        "category": "Wireless Connectivity",
+                        "titles": "Range Estimator",
+                        "svgImage": "image-light.svg"
+                    }
+                },
+                "classes": [
+                    "RangeEstimator"
+                ],
+                "options": {
+                    "singlePane": true
+                }
+            }
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 31,
+        "Name": "STS",
+        "Menu": {
+            "sort": 6,
+            "title": "Flyback Transformers",
+            "category": "Power Products",
+            "sumary": "sts-transformer-sumary",
+            "icon": "sts",
+            "groupimages": "sts",
+            "active": true,
+            "showAsInternal": false,
+            "apps": {
+                "groups": {
+                    "FlyBackDCM": {
+                        "img": "img-flyback",
+                        "sumary": "desc-flyback-dcm",
+                        "category": "FlyBackAppGroup",
+                        "titles": "Transformer for DCM Flyback",
+                        "svgImage": "image-light.svg"
+                    },
+                    "FlyBackBMO": {
+                        "img": "img-flyback",
+                        "sumary": "desc-flyback-bmo",
+                        "category": "FlyBackAppGroup",
+                        "titles": "Transformer for BM Flyback",
+                        "svgImage": "image-light.svg"
+                    },
+                    "FlyBackQRM": {
+                        "img": "img-flyback",
+                        "sumary": "desc-flyback-qrm",
+                        "category": "FlyBackAppGroup",
+                        "titles": "Transformer for QR Flyback",
+                        "svgImage": "image-light.svg"
+                    }
+                },
+                "classes": [
+                    "FlyBackDCM",
+                    "FlyBackBMO",
+                    "FlyBackQRM"
+                ]
+            }
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 32,
+        "Name": "EMC Line Filter",
+        "Menu": {
+            "sort": 21,
+            "category": "EMC Components",
+            "icon": "emclinefilter",
+            "title": "EMC Line Filter",
+            "active": true,
+            "sumary": "emclinefilter-sumary",
+            "groupimages": "emclinefilter-img"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 33,
+        "Name": "DC-Film Capacitors",
+        "Menu": {
+            "sort": 20,
+            "category": "Capacitors",
+            "icon": "ecaps",
+            "title": "DC-Film Capacitors",
+            "active": true,
+            "showAsInternal": false,
+            "sumary": "dcfilmcaps-sumary",
+            "groupimages": "dcfilm-cap"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 34,
+        "Name": "Photodiodes",
+        "Menu": {
+            "sort": 6,
+            "category": "Optoelectronics",
+            "icon": "ledphotodiodes",
+            "title": "Photodiodes",
+            "active": true,
+            "sumary": "ledphotodiodes-sumary",
+            "groupimages": "ledphotodiodes"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 35,
+        "Name": "Phototransistors",
+        "Menu": {
+            "sort": 7,
+            "category": "Optoelectronics",
+            "icon": "ledphototrans",
+            "title": "Phototransistors",
+            "active": true,
+            "sumary": "ledphototrans-sumary",
+            "groupimages": "ledphototrans"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 36,
+        "Name": "Filter Inductors",
+        "Menu": {
+            "sort": 7,
+            "category": "EMC Components",
+            "icon": "filterinductors",
+            "title": "Filter Inductors",
+            "active": true,
+            "sumary": "filter-inductors-sumary",
+            "groupimages": "filter-inductors"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 37,
+        "Name": "RF Filters",
+        "Menu": {
+            "sort": 23,
+            "category": "Signal & Communications",
+            "icon": "rffilters",
+            "title": "RF Filters",
+            "active": true,
+            "sumary": "RF-Filters-sumary",
+            "groupimages": "RF-Filters"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 38,
+        "Name": "RF Balun",
+        "Menu": {
+            "sort": 25,
+            "category": "Signal & Communications",
+            "icon": "rfbalun",
+            "title": "RF Balun",
+            "active": true,
+            "sumary": "RF-Balun-sumary",
+            "groupimages": "RF-Balun"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 39,
+        "Name": "Electric double layer Capacitors (EDLC)",
+        "Menu": {
+            "sort": 25,
+            "category": "Capacitors",
+            "icon": "EDLC",
+            "title": "Electric double layer Capacitors (EDLC)",
+            "active": true,
+            "sumary": "EDLC-sumary",
+            "groupimages": "EDLC-image"
+        },
+        "Division": "eiSos"
+    },
+    {
+        "ModuleID": 40,
+        "Name": "RF Antennas",
+        "Menu": {
+            "sort": 27,
+            "category": "Signal & Communications",
+            "icon": "rfantennas",
+            "title": "RF Antennas",
+            "active": true,
+            "sumary": "RF-Antennas-sumary",
+            "groupimages": "RF-Antennas"
+        },
+        "Division": "eiSos"
+    }
+]

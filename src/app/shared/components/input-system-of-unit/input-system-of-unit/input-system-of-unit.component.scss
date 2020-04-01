@@ -1,0 +1,19 @@
+:host > div {
+    display: flex;
+  }
+  
+  
+:host .mat-form-field-label-wrapper {
+    width: calc(100% - 3rem);
+}
+
+:host mat-select {
+    width: 3.5rem;
+    min-width: 3.5rem;
+    text-align: right;
+}
+
+
+:host.floating mat-label {
+    display: none;
+}

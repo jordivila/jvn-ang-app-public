@@ -1,0 +1,16 @@
+<div class="mat-elevation-z8">
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <div>
+        <app-menu-toggle [isOpen]="isMenuOpen" (toggleEvent)="onMenuToggleClick($event)"></app-menu-toggle>
+      </div>
+      <div class="col-text-title truncate-text-flex">
+        <div class="col-text-title-redexpert"><span>JVN</span><span>AngApp</span></div>
+        <div class="col-text-title-page"><app-route-title></app-route-title></div>
+      </div>
+      <div>
+        <app-user-dropdown></app-user-dropdown>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</div>

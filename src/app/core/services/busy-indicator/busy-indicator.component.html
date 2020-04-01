@@ -1,0 +1,19 @@
+<ng-container *ngIf="(localState$ | async) as localState;">
+    <div 
+        class="busy-indicator" 
+        *ngIf="localState.isOpen">
+
+        <div class="busy-indicator-content">
+            <mat-progress-spinner
+                class=""
+                [diameter]="60"
+                [strokeWidth]="5"
+                [color]="'primary'"
+                [mode]="'indeterminate'">
+            </mat-progress-spinner>
+            <div *ngIf="localState.text">
+                <h4>{{ localState.text }}</h4>
+            </div>
+        </div>
+    </div>
+</ng-container>

@@ -1,0 +1,32 @@
+.app-right-sidenav-templated {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .app-right-sidenav-templated-content {
+        flex: 1 0 auto;
+        form {
+            padding: 1em 1em 1em 1em;
+            mat-form-field {
+                width: 90%;
+            }
+        }
+    }
+    .app-right-sidenav-templated-footer {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        div {
+            width: 50%;
+            &:first-child {
+                text-align: right;
+                margin-right: 2em;
+            }
+            &:last-child {
+                margin-left: 2em;
+                text-align: left;
+            }
+        }
+    }
+}

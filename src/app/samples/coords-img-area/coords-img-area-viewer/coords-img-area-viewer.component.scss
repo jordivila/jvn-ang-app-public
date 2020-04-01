@@ -1,0 +1,244 @@
+
+app-coords-img-area-viewer {
+    position: relative;
+    margin: auto;
+    width:100%;
+
+    > .app-cords-select-component,
+    > .app-cords-drawer-component,
+    > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    > .app-cords-drawer-component {
+        z-index: 20;
+        cursor: crosshair;
+    }
+        
+    > .app-cords-select-component {
+        z-index: 30;
+        cursor: crosshair;
+    }
+        
+        
+    > img {
+        position:absolute;
+        max-width:none;
+        z-index: 10;
+    }
+
+    .app-cords-shadow {
+        position: absolute;
+        display: none;
+        z-index: 40;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .app-cords-user-select {
+        // prevents the user from selecting text
+        // while creating an area during mousemove
+        // https://caniuse.com/#feat=user-select-none
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+
+    .app-cords-shadow .top, 
+    .app-cords-shadow .center, 
+    .app-cords-shadow .left, 
+    .app-cords-shadow .right {
+        display: block;
+        background: rgba(1, 1, 1, 0.6);
+    }
+    
+    .app-cords-shadow .left, 
+    .app-cords-shadow .right {
+        top: 0;
+        bottom: 0;
+    }
+    
+    .app-cords-shadow .left {
+        left: 0;
+    }
+    
+    .app-cords-shadow .right {
+        right: 0;
+    }
+    
+    .app-cords-shadow .center.top {
+        top: 0;
+    }
+    
+    .app-cords-shadow .center.bottom {
+        bottom: 0;
+    }
+    
+    .app-cords-box {
+        position: absolute;
+        display: none;
+        z-index: 50;
+        cursor: move;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+    
+    .app-cords-line {
+        position: absolute;
+        display: block;
+        opacity: 0.4;
+        background: #FFF;
+    }
+    
+    .app-cords-line.left, 
+    .app-cords-line.right {
+        width: 2px;
+        height: 100%;
+        cursor: e-resize;
+    }
+    
+    .app-cords-line.left {
+        left: 0;
+    }
+    
+    .app-cords-line.right {
+        right: 0;
+    }
+    
+    .app-cords-line.top, 
+    .app-cords-line.bottom {
+        height: 2px;
+        width: 100%;
+        cursor: n-resize;
+    }
+    
+    .app-cords-line.top {
+        top: 0;
+    }
+    
+    .app-cords-line.bottom {
+        bottom: 0;
+    }
+    
+    .app-cords-drag-line, 
+    .app-cords-drag-handle {
+        position: absolute;
+        display: block;
+    }
+    
+    .app-cords-drag-line.n, 
+    .app-cords-drag-line.s {
+        height: 7px;
+        width: 100%;
+    }
+    
+    .app-cords-drag-line.n {
+        cursor: n-resize;
+        top: 0;
+        margin-top: -4px;
+    }
+    
+    .app-cords-drag-line.s {
+        cursor: s-resize;
+        bottom: 0;
+        margin-bottom: -4px;
+    }
+    
+    .app-cords-drag-line.e, 
+    .app-cords-drag-line.w {
+        width: 7px;
+        height: 100%;
+    }
+    
+    .app-cords-drag-line.e {
+        cursor: e-resize;
+        right: 0;
+        margin-right: -4px;
+    }
+    
+    .app-cords-drag-line.w {
+        cursor: w-resize;
+        left: 0;
+        margin-left: -4px;
+    }
+    
+    .app-cords-drag-handle {
+        z-index: 51;
+        opacity: 0.5;
+        background-color: #333;
+        border: 1px #EEE solid;
+        height: 10px;
+        width: 10px;
+    }
+    
+    .app-cords-drag-handle.n {
+        cursor: n-resize;
+        left: 50%;
+        top: 0;
+        margin-left: -5px;
+        margin-top: -5px;
+    }
+    
+    .app-cords-drag-handle.ne {
+        cursor: ne-resize;
+        right: 0;
+        top: 0;
+        margin-right: -5px;
+        margin-top: -5px;
+    }
+    
+    .app-cords-drag-handle.nw {
+        cursor: nw-resize;
+        left: 0;
+        top: 0;
+        margin-left: -5px;
+        margin-top: -5px;
+    }
+    
+    .app-cords-drag-handle.e {
+        cursor: e-resize;
+        right: 0;
+        top: 50%;
+        margin-right: -5px;
+        margin-top: -5px;
+    }
+    
+    .app-cords-drag-handle.w {
+        cursor: w-resize;
+        left: 0;
+        top: 50%;
+        margin-left: -5px;
+        margin-top: -5px;
+    }
+    
+    .app-cords-drag-handle.s {
+        cursor: s-resize;
+        bottom: 0;
+        left: 50%;
+        margin-bottom: -5px;
+        margin-left: -5px;
+    }
+    
+    .app-cords-drag-handle.se {
+        cursor: se-resize;
+        bottom: 0;
+        right: 0;
+        margin-bottom: -5px;
+        margin-right: -5px;
+    }
+    
+    .app-cords-drag-handle.sw {
+        cursor: sw-resize;
+        bottom: 0;
+        left: 0;
+        margin-bottom: -5px;
+        margin-left: -5px;
+    }
+}

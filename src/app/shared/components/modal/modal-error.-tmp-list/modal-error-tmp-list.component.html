@@ -1,0 +1,38 @@
+<div
+    bsModal
+    #childModal="bs-modal"
+    class="modal fade app-modal"
+    role="dialog"
+    tabindex="-1"
+    (onHidden)="modalHidden()">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="app-error-dialog">
+                <div class="modal-header bg-danger">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <h2 class="modal-title">
+                                <i class="fa fa-exclamation-triangle"></i> {{title}}
+                            </h2>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="modal-close" (click)="childModal.hide()">
+                                <i class="icon-close-thin default"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <span class="text">{{body}}</span>
+                    <ul>
+                        <ng-template ngFor let-item  let-i="index" let-odd="odd" [ngForTrackBy]="index" [ngForOf]="items" [ngForTemplate]="template"></ng-template>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" (click)="okClicked()">Accept</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

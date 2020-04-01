@@ -1,0 +1,84 @@
+<div class="crud-grid-filter">
+
+  <app-crud-grid-filter-toggle 
+    [@applicationPanel]='isOpen? "inactive" : "active"'
+    [@toggleFade]='isOpen? "inactive" : "active"'  
+    [title]="title" 
+    [isOpen]="isOpen" 
+    (isOpenChanged)="onFilterToggleClick($event, true)">
+  </app-crud-grid-filter-toggle>
+
+  <div class="crud-grid-filter-container" 
+      [@applicationPanel]='isOpen? "active" : "inactive"' 
+      [@toggleFade]='isOpen? "active" : "inactive"'>
+      <legend>{{title}}</legend>
+      <form 
+        *ngIf="filterForm" 
+        [formGroup]="filterForm" 
+        (submit)="searchClick()" 
+        #filterFormSpy>
+      
+          <mat-form-field>
+            <input matInput placeholder="User Id" [formControl]="filterForm.controls.userID"/>
+            <mat-error>
+              <app-control-messages controlLabel="User Id" [control]="filterForm.controls.userID"></app-control-messages>
+            </mat-error>
+          </mat-form-field>
+      
+          <mat-form-field>
+            <input matInput placeholder="Cid/Pid" [formControl]="filterForm.controls.cidPid"/>
+            <mat-error>
+              <app-control-messages controlLabel="Cid/Pid" [control]="filterForm.controls.cidPid"></app-control-messages>
+            </mat-error>
+          </mat-form-field>
+      
+          <mat-form-field>
+            <mat-select placeholder="Account Status" [formControl]="filterForm.controls.accountStatus">
+              <mat-option *ngFor="let item of [{name:'some value', value:'someValue'}];" [value]="item.value">
+                {{item.name}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+      
+          <mat-form-field>
+            <mat-select placeholder="Application" [formControl]="filterForm.controls.applicationId">
+              <mat-option *ngFor="let item of [{name:'some value', value:'someValue'}];" [value]="item.value">
+                {{item.name}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+      
+          <mat-form-field>
+            <mat-select placeholder="Role" [formControl]="filterForm.controls.roleId">
+              <mat-option *ngFor="let item of [{name:'some value', value:'someValue'}];" [value]="item.value">
+                {{item.name}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+      
+      
+      </form>
+
+      <div class="filter-form-buttons">
+        <div>
+          <button 
+            type="button" 
+            mat-raised-button 
+            color="secondary"
+            (click)="cancelClick($event)">
+            <span>Cancel</span>
+          </button>
+        </div>
+        <div>
+          <button 
+            mat-raised-button 
+            color="primary"
+            (click)="searchClick()"
+            [disabled]="!filterbuttonEnabled">
+            <span>Search</span>
+          </button>
+        </div>
+      </div>
+
+  </div>
+</div>

@@ -1,0 +1,8 @@
+// import custom component themes
+// unofficial naming convention to support nice ordering of files in IDE 
+// to see theme under the original style file of the componenent
+@import 'app/shared/components/layout/navbar/navbar.component.scss-theme';
+
+@mixin app-import-custom-component-themes($theme) {
+    @include app-navbar-component-theme($theme);
+}

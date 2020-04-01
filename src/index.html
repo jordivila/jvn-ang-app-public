@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EMI Filter Designer</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="white">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="assets/css/notBundled.css">
+  <script>
+    var ENV = {
+      nodeName: "${K8S_NODE_NAME}",
+      podName: "${K8S_POD_NAME}"
+    };
+  </script>  
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#e3000b">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="default-theme mat-typography">
+  <app-root> 
+    <style type="text/css"> 
+      .busy-indicator.loading-app { display: table; position: absolute; height: 100%; width: 98%; } 
+      .busy-indicator.loading-app .busy-indicator-content { display: table-cell; vertical-align: middle; text-align: center; } 
+    </style> 
+    <div class="busy-indicator loading-app"> 
+      <div class="busy-indicator-content"> 
+        <div class="row center"> 
+          <h1>Loading</h1> 
+        </div> 
+      </div> 
+    </div> 
+ </app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+</body>
+</html>

@@ -1,0 +1,4 @@
+:host mat-toolbar-row > div  {font-size: 0.5em;}
+:host mat-toolbar-row > div  {flex: 1;display: flex;flex-direction: row;}
+:host mat-toolbar-row > div:last-child   {flex: 3;}
+:host mat-toolbar-row > div:last-child div  {text-align:right;}

@@ -1,0 +1,198 @@
+{
+    "articles": {
+        "C4532X5R1A476M280KA": {
+            "properties": {
+                "Order_Code": "C4532X5R1A476M280KA",
+                "C2": 4.7000001e-005,
+                "R3": 2.9000000e-003,
+                "R4": 2.0000000e+009,
+                "L2": 7.0000000e-010
+            },
+            "id": -820610,
+            "articleNumber": "C4532X5R1A476M280KA",
+            "matchcode": "FD-CAP"
+        },
+        "C4532JB1C336M250KA": {
+            "properties": {
+                "Order_Code": "C4532JB1C336M250KA",
+                "C2": 3.3000000e-005,
+                "R3": 1.6000000e-003,
+                "R4": 3.0000000e+009,
+                "L2": 7.0000000e-010
+            },
+            "id": -820609,
+            "articleNumber": "C4532JB1C336M250KA",
+            "matchcode": "FD-CAP"
+        },
+        "C4532JB1C226M200KA": {
+            "properties": {
+                "Order_Code": "C4532JB1C226M200KA",
+                "C2": 2.2000000e-005,
+                "R3": 1.8000000e-003,
+                "R4": 4.0000000e+009,
+                "L2": 7.0000000e-010
+            },
+            "id": -820608,
+            "articleNumber": "C4532JB1C226M200KA",
+            "matchcode": "FD-CAP"
+        },
+        "C4532X7R1E156M280KB": {
+            "properties": {
+                "Order_Code": "C4532X7R1E156M280KB",
+                "C2": 1.5000000e-005,
+                "R3": 2.4999999e-003,
+                "R4": 3.2999999e+010,
+                "L2": 7.0000000e-010
+            },
+            "id": -820607,
+            "articleNumber": "C4532X7R1E156M280KB",
+            "matchcode": "FD-CAP"
+        },
+        "C4532JB1E106M250KA": {
+            "properties": {
+                "Order_Code": "C4532JB1E106M250KA",
+                "C2": 9.9999997e-006,
+                "R3": 2.0000001e-003,
+                "R4": 4.9999999e+010,
+                "L2": 7.0000000e-010
+            },
+            "id": -820606,
+            "articleNumber": "C4532JB1E106M250KA",
+            "matchcode": "FD-CAP"
+        },
+        "C4532X5R1H685M250KA": {
+            "properties": {
+                "Order_Code": "C4532X5R1H685M250KA",
+                "C2": 6.7999999e-006,
+                "R3": 2.9000000e-003,
+                "R4": 7.3000002e+010,
+                "L2": 7.0000000e-010
+            },
+            "id": -820605,
+            "articleNumber": "C4532X5R1H685M250KA",
+            "matchcode": "FD-CAP"
+        },
+        "C4532X7R1H335K200KA": {
+            "properties": {
+                "Order_Code": "C4532X7R1H335K200KA",
+                "C2": 3.2999999e-006,
+                "R3": 4.4000000e-003,
+                "R4": 1.5100001e+011,
+                "L2": 7.0000000e-010
+            },
+            "id": -820603,
+            "articleNumber": "C4532X7R1H335K200KA",
+            "matchcode": "FD-CAP"
+        },
+        "C4532X7R1E475M200KA": {
+            "properties": {
+                "Order_Code": "C4532X7R1E475M200KA",
+                "C2": 4.6999999e-006,
+                "R3": 4.3000001e-003,
+                "R4": 1.0600000e+011,
+                "L2": 7.0000000e-010
+            },
+            "id": -820602,
+            "articleNumber": "C4532X7R1E475M200KA",
+            "matchcode": "FD-CAP"
+        },
+        "C3216X5R1E476M160AC": {
+            "properties": {
+                "Order_Code": "C3216X5R1E476M160AC",
+                "C2": 4.7000001e-005,
+                "R3": 1.7000000e-003,
+                "R4": 2.0000000e+009,
+                "L2": 7.5000001e-010
+            },
+            "id": -820598,
+            "articleNumber": "C3216X5R1E476M160AC",
+            "matchcode": "FD-CAP"
+        },
+        "C3216JB0J336M130AC": {
+            "properties": {
+                "Order_Code": "C3216JB0J336M130AC",
+                "C2": 3.3000000e-005,
+                "R3": 1.2000001e-003,
+                "R4": 3.0000000e+009,
+                "L2": 7.5000001e-010
+            },
+            "id": -820597,
+            "articleNumber": "C3216JB0J336M130AC",
+            "matchcode": "FD-CAP"
+        },
+        "C3216JB1V226M160AC": {
+            "properties": {
+                "Order_Code": "C3216JB1V226M160AC",
+                "C2": 2.2000000e-005,
+                "R3": 2.2000000e-003,
+                "R4": 2.2000001e+010,
+                "L2": 7.5000001e-010
+            },
+            "id": -820596,
+            "articleNumber": "C3216JB1V226M160AC",
+            "matchcode": "FD-CAP"
+        },
+        "C3216JB1V156M160AC": {
+            "properties": {
+                "Order_Code": "C3216JB1V156M160AC",
+                "C2": 1.5000000e-005,
+                "R3": 2.7000001e-003,
+                "R4": 3.2999999e+010,
+                "L2": 7.5000001e-010
+            },
+            "id": -820595,
+            "articleNumber": "C3216JB1V156M160AC",
+            "matchcode": "FD-CAP"
+        },
+        "C3216JB1H106K160AB": {
+            "properties": {
+                "Order_Code": "C3216JB1H106K160AB",
+                "C2": 9.9999997e-006,
+                "R3": 2.6000000e-003,
+                "R4": 4.9999999e+010,
+                "L2": 7.5000001e-010
+            },
+            "id": -820592,
+            "articleNumber": "C3216JB1H106K160AB",
+            "matchcode": "FD-CAP"
+        },
+        "C3216X5R1V685K160AB": {
+            "properties": {
+                "Order_Code": "C3216X5R1V685K160AB",
+                "C2": 6.7999999e-006,
+                "R3": 3.5000001e-003,
+                "R4": 7.3000002e+010,
+                "L2": 7.5000001e-010
+            },
+            "id": -820591,
+            "articleNumber": "C3216X5R1V685K160AB",
+            "matchcode": "FD-CAP"
+        },
+        "C3216X6S1V475M160AB": {
+            "properties": {
+                "Order_Code": "C3216X6S1V475M160AB",
+                "C2": 4.6999999e-006,
+                "R3": 3.8999999e-003,
+                "R4": 1.0600000e+011,
+                "L2": 7.5000001e-010
+            },
+            "id": -820590,
+            "articleNumber": "C3216X6S1V475M160AB",
+            "matchcode": "FD-CAP"
+        },
+        "C3216JB1V335K160AB": {
+            "properties": {
+                "Order_Code": "C3216JB1V335K160AB",
+                "C2": 3.2999999e-006,
+                "R3": 5.2999998e-003,
+                "R4": 1.5100001e+011,
+                "L2": 7.5000001e-010
+            },
+            "id": -820589,
+            "articleNumber": "C3216JB1V335K160AB",
+            "matchcode": "FD-CAP"
+        }
+    },
+    "id": 101,
+    "name": null
+}

@@ -1,0 +1,25 @@
+app-crud-sample-filter {
+    form {
+        width: 100%;
+        mat-form-field {
+            width: 100%;
+        }
+    }
+    .filter-form-buttons {
+        margin-bottom: 2em;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        div {
+            width: 50%;
+            &:first-child {
+                text-align: right;
+                margin-right: 2em;
+            }
+            &:last-child {
+                margin-left: 2em;
+                text-align: left;
+            }
+        }
+    }
+}

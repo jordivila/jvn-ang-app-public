@@ -1,0 +1,14 @@
+app-product-viewer-detail {
+    #chartElement {
+        min-height: 500px;
+        max-height: 49vh;
+        div {
+            svg {
+                min-height: 500px;
+            }
+        }
+        svg {
+            min-height: 500px;
+        }
+    }
+}

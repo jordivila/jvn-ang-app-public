@@ -1,0 +1,35 @@
+<div bsModal #childModal="bs-modal" class="modal fade app-modal app-modal-slide" role="dialog" tabindex="-1" (onHidden)="modalHidden()">
+
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="app-info-dialog">
+        <div class="modal-header bg-info">
+          <div class="row">
+            <div class="col-xs-10">
+              <h2 class="modal-title">
+                {{title}}
+              </h2>
+            </div>
+            <div class="col-xs-2">
+              <a class="modal-close" (click)="childModal.hide()">
+                <i class="icon-close-thin default"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <ng-template #slideMenuDefaultTemplate>
+            No template specified
+          </ng-template>
+          <ng-container *ngTemplateOutlet="slideMenuTemplate ? slideMenuTemplate: slideMenuDefaultTemplate;">
+          </ng-container>
+        </div>
+        <div class="modal-footer">
+          <ng-template #slideMenuDefaultFooter> </ng-template>
+          <ng-container *ngTemplateOutlet="slideMenuFooterTemplate ? slideMenuFooterTemplate: slideMenuDefaultFooter;">
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

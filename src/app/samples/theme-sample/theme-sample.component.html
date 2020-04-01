@@ -1,0 +1,48 @@
+<ng-template #linkTemplate let-color="color" let-className="className">
+    <div>{{className}}</div>
+    <div>
+      <a href="javascript:void(0);" class="{{className}}">Link</a>
+    </div>
+</ng-template>
+
+<ng-template #svk let-color="color">
+  <mat-toolbar color="{{color}}">
+    <mat-toolbar-row>
+      <div>
+        <ng-container *ngTemplateOutlet="linkTemplate; context: { color: color, className: '' }"></ng-container>
+      </div>
+      <div>
+        <ng-container *ngTemplateOutlet="linkTemplate; context: { color: color, className: 'my-mat-foreground-text' }"></ng-container>
+      </div>
+      <div>
+        <ng-container *ngTemplateOutlet="linkTemplate; context: { color: color, className: 'my-mat-foreground-secondary-text' }"></ng-container>
+      </div>
+      <div>
+        <ng-container *ngTemplateOutlet="linkTemplate; context: { color: color, className: 'my-mat-primary-darker-contrast-color' }"></ng-container>
+      </div>
+      <div>
+        <div>Mini Fab Color {{color}}</div>
+        <div>
+          <button mat-mini-fab color="{{color}}"  title="{{color}}">
+            <mat-icon>palette</mat-icon>
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>Mini Fab Color Default</div>
+        <div>
+          <button mat-mini-fab title="default">
+            <mat-icon>palette</mat-icon>
+          </button>
+        </div>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</ng-template>
+
+<div class="mat-elevation-z8 theme-sample-toolbar">
+  <ng-container *ngTemplateOutlet="svk; context: { color: 'basic' }"></ng-container>
+  <ng-container *ngTemplateOutlet="svk; context: { color: 'primary' }"></ng-container>
+  <ng-container *ngTemplateOutlet="svk; context: { color: 'accent' }"></ng-container>
+  <ng-container *ngTemplateOutlet="svk; context: { color: 'warn' }"></ng-container>
+</div>

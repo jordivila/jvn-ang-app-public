@@ -1,0 +1,44 @@
+<mat-list>
+  <h3 mat-subheader>Tools</h3>
+  <mat-list-item>
+    <h4 mat-line>Zoom</h4>
+
+    <div>
+      <i class="material-icons" (click)="onFileImageZoomIn()">remove_circle_outline</i>
+    </div>
+    <div>
+      <span>{{ fileImageScalePerCent }}%</span>
+    </div>
+    <div>
+      <i class="material-icons" (click)="onFileImageZoomOut()">add_circle_outline</i>
+    </div>
+
+  </mat-list-item>
+
+  <mat-divider></mat-divider>
+
+  <mat-list-item>
+    <h4 mat-line>Actions</h4>
+    <button type="button" *ngIf="fileImageAreaSelector.x1 == undefined" (click)="onAreaCreate()">
+      <span>Add Area</span>
+    </button>
+    <button type="button" *ngIf="fileImageAreaSelector.x1 != undefined" (click)="onAreaStoreCoords()">
+      <span>Add Coords</span>
+    </button>
+  </mat-list-item>
+
+  <mat-divider></mat-divider>
+
+  <mat-list-item>
+    <h4 mat-line>Page</h4>
+    <select (change)="onPageChanged($event.target.value)">
+      <option *ngFor="let pageIndex of pagesDropDownItems; let i = index" [selected]="pageIndex==fileViewerState.page" [value]="pageIndex">
+        {{pageIndex}}
+      </option>
+    </select>
+
+  </mat-list-item>
+
+</mat-list>
+
+

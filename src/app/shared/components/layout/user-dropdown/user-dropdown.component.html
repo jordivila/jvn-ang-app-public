@@ -1,0 +1,23 @@
+<button mat-mini-fab color="primary" [matMenuTriggerFor]="menu">
+    <mat-icon>account_circle</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="languages">
+    <mat-icon>language</mat-icon>
+    <span>{{dropdownLanguages.name}}</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>help</mat-icon>
+    <span>{{dropDownItemsUserGuide.name}}</span>
+  </button>
+  <button mat-menu-item (click)="signOut()">
+    <mat-icon>power_off</mat-icon>
+    <span>{{dropDownItemSignout.name}}</span>
+  </button>
+</mat-menu>
+
+<mat-menu #languages="matMenu">
+  <a mat-menu-item *ngFor="let lang of dropdownLanguages.childs;" [href]="lang.href">
+    <span>{{lang.name}}</span>
+  </a>
+</mat-menu>

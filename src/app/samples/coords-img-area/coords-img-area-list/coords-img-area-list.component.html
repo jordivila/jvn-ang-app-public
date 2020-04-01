@@ -1,0 +1,57 @@
+<mat-list>
+  <h3 mat-subheader>Coords Selected</h3>
+  <mat-list-item>
+    <table>
+      <thead>
+        <tr>
+          <th>Page</th>
+          <th>X1</th>
+          <th>Y1</th>
+          <th>X2</th>
+          <th>Y2</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngIf="!fileCoordsSelected.length">
+          <td colspan="6">No areas selected</td>
+        </tr>
+        <ng-container *ngIf="fileCoordsSelected.length > 0">
+          <tr 
+            *ngFor="let valueEntry of fileCoordsSelected; let i = index"
+            (click)="onRowClick($event, valueEntry)">
+            <td>
+              <span title="{{valueEntry.x1}}">{{valueEntry.page }}</span>
+            </td>
+            <td>
+              <span title="{{valueEntry.x1}}">{{valueEntry.x1 | number : '1.0-0' }}</span>
+            </td>
+            <td>
+              <span title="{{valueEntry.y1}}">{{valueEntry.y1 | number : '1.0-0' }}</span>
+            </td>
+            <td>
+              <span title="{{valueEntry.x2}}">{{valueEntry.x2 | number : '1.0-0' }}</span>
+            </td>
+            <td>
+              <span title="{{valueEntry.y2}}">{{valueEntry.y2 | number : '1.0-0' }}</span>
+            </td>
+            <td>
+              <i class="material-icons" title="remove" (click)="onFileCoordsRemove($event, i, valueEntry)">delete</i>
+            </td>
+          </tr>
+        </ng-container>
+      </tbody>
+    </table>
+  </mat-list-item>
+
+  <mat-divider></mat-divider>
+
+
+</mat-list>
+
+
+
+
+
+
+

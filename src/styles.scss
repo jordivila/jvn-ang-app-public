@@ -1,0 +1,29 @@
+// node_modules
+@import '~@angular/material/theming';
+// assets
+@import './assets/css/common.scss';
+@import './assets/css/material-icons.scss';
+// themes
+@import './themes/theme-default.scss';
+@import './themes/theme-error.scss';
+@import './themes/app-import-custom-component-theme.scss';
+@import './themes/app-create-common-css-classes-theme.scss';
+@import './themes/custom-angular-material.scss';
+
+
+@include mat-core(); // make sure we only include mat-core once !!!
+
+
+* { font-family: Roboto, "Helvetica Neue", sans-serif;}
+
+.default-theme {
+    @include custom-angular-material-theme($default-theme);    
+    @include app-import-custom-component-themes($default-theme);
+    @include app-create-common-css-classes($default-theme);
+}
+
+.error-theme {
+    @include angular-material-theme($error-theme);
+    @include app-import-custom-component-themes($error-theme);
+    @include app-create-common-css-classes($error-theme);
+}

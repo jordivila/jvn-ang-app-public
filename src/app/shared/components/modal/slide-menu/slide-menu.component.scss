@@ -1,0 +1,18 @@
+.app-modal-slide .modal-dialog{
+    margin:0 0 0 0 !important;
+    height:100% !important;
+    position:fixed !important;
+    top:0;
+    right:0;
+    width:50%;
+}
+
+.app-modal-slide .modal-dialog .modal-content {
+    height:100%;
+}
+
+.app-modal-slide .modal-dialog .modal-footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}

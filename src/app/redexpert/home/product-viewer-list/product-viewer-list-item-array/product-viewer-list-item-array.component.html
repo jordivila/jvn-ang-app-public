@@ -1,0 +1,20 @@
+  <div 
+    flex 
+    fxLayout="row wrap" 
+    fxLayout.lt-sm="column wrap" 
+    fxLayout.xs="column" 
+    >
+    <div 
+      fxFlex.xs="70" 
+      fxFlex.sm="50" 
+      fxFlex.md="33.3" 
+      fxFlex.lg="33.3" 
+      fxFlex.xl="33.3" 
+  
+      *ngFor="let item of productListItems">
+      <app-product-viewer-list-item
+        [item]="item"
+        (visitClick)="onVisitClick($event)">
+      </app-product-viewer-list-item>
+    </div>
+  </div>

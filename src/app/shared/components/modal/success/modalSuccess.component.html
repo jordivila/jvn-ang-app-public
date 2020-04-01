@@ -1,0 +1,35 @@
+<div 
+    bsModal 
+    #childModal="bs-modal" 
+    class="modal fade app-modal" 
+    role="dialog" 
+    tabindex="-1" 
+    (onHidden)="modalHidden()">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="app-success-dialog">
+                <div class="modal-header bg-success">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <h2 class="modal-title">
+                                <i class="fa fa-check-circle"></i>
+                                {{title}}
+                            </h2>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="modal-close" (click)="koClicked()">
+                                <i class="icon-close-thin default"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <span class="text">{{body}}</span>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" (click)="koClicked()">Close</button>
+                </div>
+            </div>            
+        </div>
+    </div>
+</div>

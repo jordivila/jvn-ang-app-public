@@ -1,0 +1,27 @@
+@import './theme-shades.scss';
+@import './custom-palletes.scss';
+
+/*
+    Default theme by using "shades"
+*/
+$default-primary: mat-palette($mat-redex-grey, 800, A200, A700);
+$default-accent: mat-palette($mat-redex-red, 700, A200, A700);
+$default-warn: mat-palette($mat-red, $darker-shade);
+$default-theme: mat-light-theme($default-primary, $default-accent, $default-warn);
+
+// /*
+//     Default theme by mixing other themes
+// */
+// $default-primary: mat-palette($mat-red, $default-shade, $lighter-shade, $darker-shade);
+// $default-accent: mat-palette($mat-pink, $default-shade, $lighter-shade, $darker-shade);
+// $default-warn: mat-palette($mat-purple, $default-shade, $lighter-shade, $darker-shade);
+// $default-theme: mat-light-theme($default-primary, $default-accent, $default-warn);
+
+
+// /*
+//     Default theme using "dark" mode
+// */
+// $default-primary: mat-palette($mat-red, $default-shade);
+// $default-accent: mat-palette($mat-red, $lighter-shade);
+// $default-warn: mat-palette($mat-red, $darker-shade);
+// $default-theme: mat-dark-theme($default-primary, $default-accent, $default-warn);

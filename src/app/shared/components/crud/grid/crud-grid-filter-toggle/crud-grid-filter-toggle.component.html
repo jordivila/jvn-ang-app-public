@@ -1,0 +1,12 @@
+<div class="crud-grid-filter-toggle" (click)="onClick($event)">
+    <div>
+        <mat-form-field>
+            <input matInput [readonly]="true" [placeholder]="title" autocomplete="off" />
+        </mat-form-field>
+    </div>
+    <div>
+        <button mat-mini-fab color="primary">
+            <mat-icon>search</mat-icon>
+        </button>
+    </div>
+</div>

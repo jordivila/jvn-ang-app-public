@@ -1,0 +1,11 @@
+<div
+    *ngFor="let rect of rects; let i = index" 
+    class="app-cords-drawer-area"
+    [ngClass]="rect.cssClass"
+    [ngStyle]="{ 
+        'top': rect.y1 * scale + 'px',
+        'left': rect.x1 * scale + 'px',
+        'width': ((rect.x2 * scale) - (rect.x1 * scale)) + 'px',
+        'height': ((rect.y2 * scale) - (rect.y1 * scale)) + 'px'
+    }">
+</div>
